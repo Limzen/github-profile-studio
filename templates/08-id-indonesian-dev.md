@@ -1,24 +1,25 @@
 <div align="center">
 
-# Halo Semua! 👋 Saya <Nama Anda>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,18,30&height=180&section=header&text=Halo%20Semua%20👋%20Saya%20Limzen&fontSize=36&animation=fadeIn" width="100%" />
+
 ### Full-Stack Developer • Penggemar Open Source • Berbasis di Indonesia 🇮🇩
 
 <p align="center">
-  <a href="https://linkedin.com/in/<LINKEDIN_ANDA>"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="https://instagram.com/<IG_ANDA>"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" /></a>
-  <a href="mailto:<EMAIL_ANDA>"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://github.com/Limzen"><img src="https://img.shields.io/github/followers/Limzen?style=for-the-badge&logo=github&color=333333" alt="Followers" /></a>
+  <a href="https://linkedin.com"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:contact@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
 
 </div>
 
 ---
 
-### 🇮🇩 Tentang Saya
+### 🇮🇩 Tentang Saya & Fokus Pengembangan
 
-- 🔭 Saat ini sedang fokus mengembangkan **aplikasi web & backend yang scalable**.
-- 💡 Tertarik pada ekosistem **JavaScript/TypeScript, PHP/Laravel, dan Cloud Native**.
-- ☕ Selalu siap berdiskusi seputar arsitektur software, tips karir tech, atau sekadar ngopi santai!
-- 📍 Berdomisili di **Indonesia 🇮🇩**.
+- 🔭 Saat ini sedang aktif mengembangkan **solusi web modern, API terstruktur, dan arsitektur database**.
+- 💡 Tertarik mendalam pada ekosistem **JavaScript/TypeScript, Vue/React, PHP/Laravel, dan Docker**.
+- ☕ Selalu terbuka untuk diskusi teknis, kolaborasi proyek opensource, atau sekadar bertukar pengalaman santai!
+- 📍 Berdomisili dan berkarya dari **Indonesia 🇮🇩**.
 
 ---
 
@@ -26,7 +27,7 @@
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=php,laravel,js,ts,vue,react,tailwind,mysql,postgres,docker,git&theme=dark" />
+    <img src="https://skillicons.dev/icons?i=php,laravel,js,ts,vue,react,tailwind,mysql,postgres,docker,git,linux&theme=dark" alt="Skill Icons" />
   </a>
 </p>
 
@@ -35,16 +36,16 @@
 ### 📈 Statistik Aktivitas GitHub
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=<USERNAME_GITHUB_ANDA>&show_icons=true&locale=id&theme=tokyonight&hide_border=true" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=<USERNAME_GITHUB_ANDA>&layout=compact&theme=tokyonight&hide_border=true" width="48%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Limzen&theme=tokyonight" alt="GitHub Stats" width="48%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Limzen&theme=tokyonight" alt="Top Languages" width="48%" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=<USERNAME_GITHUB_ANDA>&theme=tokyonight&hide_border=true" width="96%" />
+  <img src="https://streak-stats.demolab.com/?user=Limzen&theme=tokyonight&hide_border=true" alt="GitHub Streak" width="96%" />
 </p>
 
 ---
 
 <p align="center">
-  ⭐ <i>Jangan ragu untuk saling bertukar bintang (Star) dan follow profil GitHub saya!</i> ⭐
+  ⭐ <b>Jangan ragu untuk saling bertukar bintang (Star) dan follow profil GitHub saya!</b> ⭐
 </p>

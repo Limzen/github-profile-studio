@@ -34,7 +34,7 @@
 
 ## ✨ Fitur Unggulan
 
-- 💎 **8+ Template Desain Estetik**: Dari Minimalist Clean, Cyberpunk Neon, Modern Fullstack, Terminal Hacker, Data & AI, hingga Designer & Gamified.
+- 💎 **13+ Template Desain Estetik Siap Pakai**: Tanpa blok kode mentah, 100% menggunakan tata letak visual, tabel modern, dan widget yang teruji aktif.
 - 🇮🇩 **Special Indonesian Dev Template**: Disesuaikan dengan sentuhan lokal komunitas programmer Indonesia.
 - 💻 **Interactive Live Generator**: Buka file `index.html` di browser atau via GitHub Pages untuk mengedit nama, bio, dan melihat pratinjau live secara instan!
 - 🏅 **Panduan Achievement / Badges GitHub**: Cara mudah dan cepat membuka lencana *Starstruck*, *Pull Shark*, *Quickdraw*, *Pair Extraordinaire*, dan lainnya.
@@ -42,20 +42,25 @@
 
 ---
 
-## 🎨 Galeri Template Siap Pakai
+## 🎨 Galeri 13 Template Siap Pakai
 
 Semua template tersimpan rapi di folder [`templates/`](./templates/) dan dapat langsung Anda salin:
 
 | # | Nama Template | Karakteristik / Nuansa | File Link |
 | :-: | :--- | :--- | :-: |
 | 1 | 💎 **Minimalist Clean** | Elegan, rapi, profesional, fokus pada esensi | [Lihat Kode](./templates/01-minimalist-clean.md) |
-| 2 | 🔮 **Cyberpunk Neo** | Teks animasi ketik, tema neon radical & dark | [Lihat Kode](./templates/02-cyberpunk-developer.md) |
+| 2 | 🔮 **Cyberpunk Neo** | Teks animasi ketik, tema neon radical, visual telemetry | [Lihat Kode](./templates/02-cyberpunk-developer.md) |
 | 3 | 🚀 **Modern Fullstack** | Tabel ekosistem teknologi, kartu metrik lengkap | [Lihat Kode](./templates/03-modern-fullstack.md) |
-| 4 | 💻 **Terminal Hacker** | Simulasi bash shell Linux, curl, ASCII feel | [Lihat Kode](./templates/04-terminal-hacker.md) |
-| 5 | 🧠 **AI & Data Scientist** | Python class format, fokus ML/DL & tools riset | [Lihat Kode](./templates/05-data-ai-scientist.md) |
+| 4 | 💻 **Command Center** | Nuansa Linux dark terminal, status konsol terautentikasi | [Lihat Kode](./templates/04-terminal-hacker.md) |
+| 5 | 🧠 **AI & Data Scientist** | Tabel riset ML/DL, AI toolkit, metrik repositori | [Lihat Kode](./templates/05-data-ai-scientist.md) |
 | 6 | 🎨 **Creative Designer** | Warna lembut, header artistik, showcase UI/UX | [Lihat Kode](./templates/06-creative-designer.md) |
 | 7 | 🎮 **Gamified RPG** | Quest log, inventory relic, GIF animasi gaming | [Lihat Kode](./templates/07-gamified-anime.md) |
 | 8 | 🇮🇩 **Indonesian Developer** | Bahasa Indonesia, tech stack lokal & ramah komunitas | [Lihat Kode](./templates/08-id-indonesian-dev.md) |
+| 9 | ☁️ **Cloud & DevOps Architect** | Kontainer Docker, orkestrasi K8s, pipeline CI/CD | [Lihat Kode](./templates/09-devops-cloud-architect.md) |
+| 10 | 📱 **Mobile App Developer** | Flutter, React Native, iOS & Android showcase | [Lihat Kode](./templates/10-mobile-developer.md) |
+| 11 | 🌴 **Retro Synthwave 80s** | Outrun neon magenta/cyan, font arcade retro | [Lihat Kode](./templates/11-retro-synthwave-80s.md) |
+| 12 | 🍱 **Bento Grid Modern** | Tata letak kartu Bento terstruktur dan rapi | [Lihat Kode](./templates/12-bento-grid-modern.md) |
+| 13 | 🎓 **Junior & Fresh Graduate** | Khusus mahasiswa & pencari kerja tech pertama | [Lihat Kode](./templates/13-student-freshgrad.md) |
 
 ---
 

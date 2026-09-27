@@ -1,36 +1,54 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=12,24,30&height=160&section=header&text=✨%20%3CYour%20Name%3E%20✨&fontSize=38&animation=fadeIn" width="100%" />
 
-  <p>🎨 UI/UX Designer & Frontend Craftsman 💻</p>
-  <p><i>Blending artistic intuition with pixel-perfect frontend engineering.</i></p>
+<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=12,24,30&height=180&section=header&text=✨%20Limzen%20✨&fontSize=38&animation=fadeIn" width="100%" />
 
-  <p>
-    <a href="https://dribbble.com/<YOUR_DRIBBBLE>"><img src="https://img.shields.io/badge/Dribbble-EA4C89?style=for-the-badge&logo=dribbble&logoColor=white" /></a>
-    <a href="https://behance.net/<YOUR_BEHANCE>"><img src="https://img.shields.io/badge/Behance-1769FF?style=for-the-badge&logo=behance&logoColor=white" /></a>
-    <a href="https://linkedin.com/in/<YOUR_LINKEDIN>"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  </p>
+# 🎨 Limzen | UI/UX Designer & Frontend Craftsman
+<p><i>Memadukan intuisi visual artistik dengan rekayasa frontend yang presisi dan responsif.</i></p>
+
+<p align="center">
+  <a href="https://dribbble.com"><img src="https://img.shields.io/badge/Dribbble-EA4C89?style=for-the-badge&logo=dribbble&logoColor=white" alt="Dribbble" /></a>
+  <a href="https://behance.net"><img src="https://img.shields.io/badge/Behance-1769FF?style=for-the-badge&logo=behance&logoColor=white" alt="Behance" /></a>
+  <a href="https://linkedin.com"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:contact@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+</p>
+
 </div>
 
 ---
 
-### 🎨 Creative Palette & Tech Stack
+### 💡 Filosofi Desain & Fokus Kreatif
+
+| Pilar Desain | Pendekatan & Eksekusi |
+| :--- | :--- |
+| 📱 **Antarmuka Berpusat pada Pengguna** | Tipografi bersih, hierarki visual yang jelas, tata letak grid responsif |
+| 🔮 **Design Systems** | Komponen UI modular, token desain terstandarisasi, konsistensi multi-platform |
+| ⚡ **Interaksi & Mikro-Animasi** | Transisi halus, respons haptic, dan pengalaman pengguna yang hidup |
+
+---
+
+### 🎨 Palet Desain & Stack Teknologi
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=figma,xd,ps,ai,pr,ae,html,css,sass,tailwind,react,threejs&perline=6" />
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=figma,tailwind,react,vue,nextjs,html,css,sass,js,ts,git&theme=dark" alt="Creative Stack" />
+  </a>
 </p>
 
 ---
 
-### 💡 Design Philosophy & What I Do
-- 📱 **User-Centric Interfaces**: Clean typography, intuitive micro-interactions, responsive grids.
-- 🔮 **Design Systems**: Component libraries, design tokens, multi-brand consistency.
-- ⚡ **Creative Code**: GSAP animations, 3D WebGL scenes with Three.js, CSS witchcraft.
+### 🌟 Statistik Repositori & Aktivitas
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Limzen&theme=rose" alt="Stats" width="48%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Limzen&theme=rose" alt="Languages" width="48%" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=Limzen&theme=rose_pine&hide_border=true" alt="Streak" width="96%" />
+</p>
 
 ---
 
-### 🌟 Stats & Highlights
-
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=<YOUR_GITHUB_USERNAME>&show_icons=true&theme=catppuccin_latte&hide_border=true" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=<YOUR_GITHUB_USERNAME>&layout=compact&theme=catppuccin_latte&hide_border=true" width="48%" />
+  ⭐ <b>Suka dengan tampilan ini? Beri bintang (Star) untuk mendukung karya open-source!</b> ⭐
 </p>

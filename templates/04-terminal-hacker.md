@@ -1,38 +1,56 @@
-```bash
-root@portfolio:~# whoami
-<Your Name> - Systems Architect & Backend Developer
+<div align="center">
 
-root@portfolio:~# cat /proc/user/status
-OS: Linux / Arch (btw)
-Uptime: 24 years, 11 months, 14 days
-Memory: 99% allocated to Problem Solving
-Current Focus: Cloud Native, Rust, Kubernetes, High-Concurrency APIs
+<img src="https://capsule-render.vercel.app/api?type=cylinder&color=050505&height=140&section=header&text=CONSOLE%20STATUS:%20AUTHENTICATED&fontSize=30&fontColor=00ff9d" width="100%" />
 
-root@portfolio:~# ls -la /usr/local/skills/
-drwxr-xr-x  backend/    (Golang, Rust, Node.js, Python, gRPC)
-drwxr-xr-x  databases/  (PostgreSQL, Redis, ScyllaDB, ClickHouse)
-drwxr-xr-x  infra/      (Docker, Kubernetes, Terraform, ArgoCD, Linux)
-drwxr-xr-x  monitoring/ (Prometheus, Grafana, OpenTelemetry)
-
-root@portfolio:~# curl -s https://api.github.com/users/<YOUR_GITHUB_USERNAME> | jq '{repos: .public_repos, followers: .followers}'
-{
-  "status": "Ready to hack",
-  "coffee_intake": "Optimal",
-  "open_for_collab": true
-}
-```
+# ⚡ Limzen // Systems Developer
+### High-Performance Web Architect & Backend Engineer
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=<YOUR_GITHUB_USERNAME>&theme=terminal&hide_border=true" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=<YOUR_GITHUB_USERNAME>&layout=compact&theme=terminal&hide_border=true" width="48%" />
+  <img src="https://img.shields.io/badge/TERMINAL-ONLINE-00ff9d?style=for-the-badge&logo=gnubash&logoColor=black" alt="Status" />
+  <img src="https://img.shields.io/badge/SECURITY-CLEARED-00e5ff?style=for-the-badge&logo=shield" alt="Security" />
+  <a href="https://github.com/Limzen"><img src="https://img.shields.io/badge/GITHUB-PROFILE-ffffff?style=for-the-badge&logo=github&logoColor=black" alt="GitHub" /></a>
+  <a href="https://linkedin.com"><img src="https://img.shields.io/badge/NETWORK-CONNECT-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 </p>
 
-```bash
-root@portfolio:~# ./contact.sh
-[+] LinkedIn : https://linkedin.com/in/<YOUR_LINKEDIN>
-[+] Email    : <YOUR_EMAIL>
-[+] X        : https://twitter.com/<YOUR_TWITTER>
+</div>
 
-root@portfolio:~# exit
-Connection closed.
-```
+---
+
+### 🖥️ Command Center Profile
+
+| Parameter | System Telemetry |
+| :--- | :--- |
+| **System Identity** | **Limzen** (Core Engineer) |
+| **Primary Environment** | Linux / Ubuntu / Docker Containers |
+| **Operational Focus** | Microservices, High-Concurrency APIs, Reactive Frontends |
+| **Memory Allocation** | 100% Focused on Efficient & Modular Problem Solving |
+| **Collaboration Status** | Open for Inquiries & Open-Source Projects |
+
+---
+
+### 🛠️ Weapon of Choice (Toolkit)
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=linux,bash,docker,git,ts,js,nodejs,express,php,laravel,postgres,mysql,redis,python&theme=dark" alt="Skills" />
+  </a>
+</p>
+
+---
+
+### 📊 Telemetry Diagnostics & Logs
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Limzen&theme=github4" alt="Stats" width="48%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Limzen&theme=github4" alt="Languages" width="48%" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=Limzen&theme=dark&hide_border=true" alt="Streak" width="96%" />
+</p>
+
+---
+
+<div align="center">
+  <p><i>[SYSTEM EVENT]: Session active. Leave a Star ⭐ to bookmark this station.</i></p>
+</div>

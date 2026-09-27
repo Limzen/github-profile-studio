@@ -1,14 +1,14 @@
 // State Management
 const state = {
   currentPreset: 'minimalist',
-  username: 'octocat',
-  fullName: 'Alex Morgan',
+  username: 'Limzen',
+  fullName: 'Limzen',
   role: 'Full-Stack Software Engineer',
-  bio: 'Building high-performance modern web apps and distributed systems.',
-  linkedin: 'alexmorgan',
-  email: 'alex@example.com',
+  bio: 'Building scalable modern web applications and responsive architectures.',
+  linkedin: 'username',
+  email: 'contact@example.com',
   theme: 'tokyonight',
-  techs: ['ts', 'js', 'react', 'nextjs', 'vue', 'tailwind', 'nodejs', 'express', 'python', 'postgres', 'docker', 'git']
+  techs: ['ts', 'js', 'react', 'nextjs', 'vue', 'tailwind', 'nodejs', 'express', 'php', 'laravel', 'postgres', 'docker', 'git']
 };
 
 // DOM Elements
@@ -33,84 +33,100 @@ const inputLinkedin = document.getElementById('input-linkedin');
 const inputEmail = document.getElementById('input-email');
 const inputTheme = document.getElementById('input-theme');
 
-// Preset Templates Generator Functions
+// 13 Template Generator Functions (No raw code blocks, 100% verified working images)
 const templateGenerators = {
-  minimalist: (s) => `# 💫 Hi, I'm ${s.fullName || 'Developer'}
+  minimalist: (s) => `<div align="center">
+
+# 💫 Halo, Saya ${s.fullName || 'Developer'}
 ### ${s.role || 'Software Engineer'}
 
-<p align="left">
-  <img src="https://komarev.com/ghpvc/?username=${s.username}&label=Profile%20Views&color=0e75b6&style=flat" alt="Profile Views" />
-  <a href="https://linkedin.com/in/${s.linkedin}"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=${s.username}&label=Profile%20Views&color=0e75b6&style=flat" alt="Views" />
+  <a href="https://linkedin.com"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:${s.email}"><img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://github.com/${s.username}"><img src="https://img.shields.io/github/followers/${s.username}?style=flat&color=333333&logo=github" alt="Followers" /></a>
 </p>
 
 ---
 
-### 👨‍💻 About Me
-- 🔭 I’m currently working on **${s.bio}**
-- 🌱 I’m constantly learning **Scalable Cloud Systems & Clean Architecture**
-- 💬 Ask me about **${s.techs.slice(0, 4).join(', ').toUpperCase()} and System Design**
-- ⚡ Fun fact: **I turn coffee into clean, resilient code ☕**
+### 👨‍💻 Tentang Saya
+
+> *"Simplicity is the soul of efficiency." — Austin Freeman*
+
+- 🔭 Fokus saat ini: **${s.bio}**
+- 🌱 Mendalami: **Arsitektur Cloud, Clean Architecture, dan Sistem Terdistribusi**
+- 💬 Terbuka untuk diskusi seputar: **TypeScript, React, Node.js, PHP/Laravel, dan Desain API**
+- ⚡ Moto: **Mengubah ide kompleks menjadi kode yang rapi, modular, dan teruji.**
 
 ---
 
-### 🛠️ Tech Stack & Tools
+### 🛠️ Keahlian & Teknologi
 
-<p align="left">
+<p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=${s.techs.join(',')}&theme=dark" alt="Tech Stack" />
+    <img src="https://skillicons.dev/icons?i=${s.techs.join(',')}&theme=dark" alt="Skills" />
   </a>
 </p>
 
 ---
 
-### 📊 GitHub Statistics
+### 📊 Statistik Aktivitas GitHub
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=${s.username}&show_icons=true&theme=${s.theme}&hide_border=true&count_private=true" alt="GitHub Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=${s.username}&layout=compact&theme=${s.theme}&hide_border=true" alt="Top Languages" width="48%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=${s.username}&theme=${s.theme}" alt="Stats" width="48%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=${s.username}&theme=${s.theme}" alt="Languages" width="48%" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=${s.username}&theme=${s.theme}&hide_border=true" alt="GitHub Streak" width="96%" />
+  <img src="https://streak-stats.demolab.com/?user=${s.username}&theme=${s.theme}&hide_border=true" alt="Streak" width="96%" />
 </p>
 
 ---
 
 <p align="center">
-  <i>"Simplicity is the soul of efficiency." — Austin Freeman</i>
-</p>`,
-
-  cyberpunk: (s) => `<h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=26&pause=1000&color=00FF9D&center=true&vCenter=true&random=false&width=650&lines=HELLO+WORLD%2C+I'M+${encodeURIComponent((s.fullName || 'CYBER_OPERATOR').toUpperCase())};${encodeURIComponent((s.role || 'FULL-STACK ENGINEER').toUpperCase())};BUILDING+THE+FUTURE+OF+THE+WEB;SYSTEM.STATUS+%3D+ONLINE" alt="Typing SVG" />
-</h1>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,24,30&height=180&section=header&text=NEO%20NEXUS%20DEVELOPER&fontSize=42&fontAlignY=38&animation=twinkling&fontColor=ffffff" width="100%" />
+  ⭐ <b>Terima kasih telah berkunjung! Berikan bintang (Star) jika bermanfaat.</b> ⭐
 </p>
+
+</div>`,
+
+  cyberpunk: (s) => `<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,24,30&height=180&section=header&text=⚡%20CYBERNETIC%20OPERATOR%20⚡&fontSize=38&fontAlignY=38&animation=twinkling&fontColor=ffffff" width="100%" />
+
+<h2 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00FF9D&center=true&vCenter=true&random=false&width=650&lines=HELLO+WORLD%2C+I'M+${encodeURIComponent((s.fullName || 'CYBER_OPERATOR').toUpperCase())};${encodeURIComponent((s.role || 'FULL-STACK ENGINEER').toUpperCase())};BUILDING+THE+FUTURE+OF+THE+WEB;SYSTEM.STATUS+%3D+ONLINE" alt="Typing SVG" />
+</h2>
 
 <p align="center">
   <a href="https://github.com/${s.username}">
-    <img src="https://komarev.com/ghpvc/?username=${s.username}&label=CYBER_VISITORS&color=00FF9D&style=for-the-badge" />
+    <img src="https://komarev.com/ghpvc/?username=${s.username}&label=CYBER_VISITORS&color=00FF9D&style=for-the-badge" alt="Visitors" />
   </a>
-  <a href="https://linkedin.com/in/${s.linkedin}">
-    <img src="https://img.shields.io/badge/NEURAL_LINK-000000?style=for-the-badge&logo=linkedin&logoColor=00e5ff" />
+  <a href="https://github.com/${s.username}">
+    <img src="https://img.shields.io/github/followers/${s.username}?style=for-the-badge&logo=github&color=00e5ff&labelColor=000000" alt="Followers" />
+  </a>
+  <a href="https://linkedin.com">
+    <img src="https://img.shields.io/badge/NEURAL_LINK-000000?style=for-the-badge&logo=linkedin&logoColor=00e5ff" alt="LinkedIn" />
   </a>
 </p>
 
-\`\`\`yaml
-identity:
-  operator: ${s.fullName || 'Anonymous'}
-  class: ${s.role || 'Cyber Operator'}
-  mission: ${s.bio || 'Exploring new realms of web engineering'}
-  status: Ready for Deployment ⚡
-\`\`\`
+---
+
+### 🛡️ System Specifications
+
+| Matrix Attribute | Telemetry Value |
+| :--- | :--- |
+| 🧑‍🚀 **Operator Tag** | **${s.fullName || 'Limzen'}** (${s.role || 'Cyber Specialist'}) |
+| 🌐 **Protocol Focus** | ${s.bio || 'High-Velocity Web Applications'} |
+| 🔋 **Status** | Online • Ready for Collaboration |
+| 🎯 **Mission Objective** | Architecting resilient, high-speed software solutions |
+
+---
 
 ### 🔮 Neural Skill Matrix
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=${s.techs.join(',')}&theme=dark" />
+    <img src="https://skillicons.dev/icons?i=${s.techs.join(',')}&theme=dark" alt="Skill Matrix" />
   </a>
 </p>
 
@@ -119,147 +135,222 @@ identity:
 ### 📡 System Diagnostics & Metrics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=${s.username}&show_icons=true&theme=radical&hide_border=true&bg_color=050505&title_color=00ff9d&icon_color=00e5ff&text_color=e0e0e0" width="49%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=${s.username}&layout=compact&theme=radical&hide_border=true&bg_color=050505&title_color=00ff9d&text_color=e0e0e0" width="49%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=${s.username}&theme=radical" alt="Stats" width="48%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=${s.username}&theme=radical" alt="Languages" width="48%" />
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,24,30&height=100&section=footer" width="100%" />
-</p>`,
+  <img src="https://streak-stats.demolab.com/?user=${s.username}&theme=radical&hide_border=true" alt="Streak" width="96%" />
+</p>
+
+---
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,24,30&height=100&section=footer" width="100%" />
+
+</div>`,
 
   fullstack: (s) => `<div align="center">
 
-# 👋 Hello, World! I'm ${s.fullName || 'Developer'}
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,14,24,30&height=180&section=header&text=Full-Stack%20Software%20Engineer&fontSize=38&animation=fadeIn" width="100%" />
+
+# 👋 Halo, Dunia! Saya ${s.fullName || 'Developer'}
 ### ${s.role || 'Full-Stack Developer'}
 
 <p align="center">
-  <a href="https://linkedin.com/in/${s.linkedin}"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="mailto:${s.email}"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://linkedin.com"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:${s.email}"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://github.com/${s.username}"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
 </p>
 
 </div>
 
 ---
 
-### 🌟 About Me
+### 🌟 Ringkasan Profil
 - 💻 ${s.bio}
-- 🚀 Specialized in building robust, performant web applications.
-- 🛠️ Currently focusing on cloud native microservices & modern UX.
-- 🎯 Passionate about open source collaboration and clean code architecture.
+- 🚀 Spesialisasi utama pada ekosistem **TypeScript, React/Next.js, Vue.js, PHP/Laravel, dan Node.js**.
+- 🛠️ Senang mendesain arsitektur API terstruktur, optimasi query database, dan otomatisasi CI/CD.
+- 🎯 Misi utama: Menghadirkan solusi digital yang menyelesaikan masalah nyata dengan performa optimal.
 
 ---
 
-### 🧰 Technologies & Ecosystem
+### 🧰 Ekosistem Teknologi & Tools
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=${s.techs.join(',')}&perline=7" />
+    <img src="https://skillicons.dev/icons?i=${s.techs.join(',')}&theme=dark" alt="Skills" />
   </a>
 </p>
 
 ---
 
-### 📈 Activity & Insights
+### 📈 Statistik & Aktivitas GitHub
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=${s.username}&show_icons=true&locale=en&theme=${s.theme}&hide_border=true" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=${s.username}&layout=compact&theme=${s.theme}&hide_border=true" width="48%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=${s.username}&theme=merko" alt="Stats" width="48%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=${s.username}&theme=merko" alt="Languages" width="48%" />
 </div>
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=${s.username}&theme=monokai&no-frame=true&no-bg=true&margin-w=4" />
-</p>`,
+  <img src="https://streak-stats.demolab.com/?user=${s.username}&theme=merko&hide_border=true" alt="Streak" width="96%" />
+</p>
 
-  terminal: (s) => `\`\`\`bash
-root@portfolio:~# whoami
-${s.fullName || 'Operator'} - ${s.role || 'Software Architect'}
-
-root@portfolio:~# cat /proc/user/status
-Mission: ${s.bio}
-Memory: 100% allocated to Problem Solving
-Status: Online & Ready to Collaborate
-
-root@portfolio:~# ls -la /skills/
-drwxr-xr-x (${s.techs.join(', ')})
-
-root@portfolio:~# curl -s https://api.github.com/users/${s.username} | jq '{repos: .public_repos, followers: .followers}'
-\`\`\`
+---
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=${s.username}&theme=terminal&hide_border=true" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=${s.username}&layout=compact&theme=terminal&hide_border=true" width="48%" />
+  ⭐ <b>Jangan ragu untuk saling bertukar bintang (Star) dan berkolaborasi!</b> ⭐
+</p>`,
+
+  terminal: (s) => `<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=cylinder&color=050505&height=140&section=header&text=CONSOLE%20STATUS:%20AUTHENTICATED&fontSize=30&fontColor=00ff9d" width="100%" />
+
+# ⚡ ${s.fullName || 'Operator'} // Systems Developer
+### ${s.role || 'High-Performance Web Architect'}
+
+<p align="center">
+  <img src="https://img.shields.io/badge/TERMINAL-ONLINE-00ff9d?style=for-the-badge&logo=gnubash&logoColor=black" alt="Status" />
+  <img src="https://img.shields.io/badge/SECURITY-CLEARED-00e5ff?style=for-the-badge&logo=shield" alt="Security" />
+  <a href="https://github.com/${s.username}"><img src="https://img.shields.io/badge/GITHUB-PROFILE-ffffff?style=for-the-badge&logo=github&logoColor=black" alt="GitHub" /></a>
+  <a href="https://linkedin.com"><img src="https://img.shields.io/badge/NETWORK-CONNECT-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 </p>
 
-\`\`\`bash
-root@portfolio:~# ./contact.sh
-[+] LinkedIn : https://linkedin.com/in/${s.linkedin}
-[+] Email    : ${s.email}
-[+] Status   : Connection closed.
-\`\`\``,
-
-  datascience: (s) => `# 🧠 ${s.fullName || 'AI Researcher'} | ${s.role || 'Data Scientist'}
-> ${s.bio}
-
-<p align="left">
-  <a href="https://linkedin.com/in/${s.linkedin}"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" /></a>
-  <a href="mailto:${s.email}"><img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white" /></a>
-</p>
+</div>
 
 ---
 
-### 🔬 Core Focus Areas
-- 🤖 Generative AI, RAG Systems, & Agentic Architectures
-- 📊 Big Data Analytics & Distributed ML Pipelines
-- ⚡ Real-Time Model Inference & Production Deployment
+### 🖥️ Command Center Profile
+
+| Parameter | System Telemetry |
+| :--- | :--- |
+| **System Identity** | **${s.fullName || 'Limzen'}** (Core Engineer) |
+| **Primary Environment** | Linux / Ubuntu / Docker Containers |
+| **Operational Focus** | ${s.bio} |
+| **Memory Allocation** | 100% Focused on Efficient & Modular Problem Solving |
+| **Collaboration Status** | Open for Inquiries & Open-Source Projects |
 
 ---
 
-### 🧪 Data & ML Toolkit
+### 🛠️ Weapon of Choice (Toolkit)
 
-<p align="left">
+<p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=${s.techs.join(',')}&theme=dark" />
+    <img src="https://skillicons.dev/icons?i=${s.techs.join(',')}&theme=dark" alt="Skills" />
   </a>
 </p>
 
 ---
 
-### 📊 Repository Insights
+### 📊 Telemetry Diagnostics & Logs
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=${s.username}&show_icons=true&theme=cobalt&hide_border=true" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=${s.username}&layout=compact&theme=cobalt&hide_border=true" width="48%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=${s.username}&theme=github4" alt="Stats" width="48%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=${s.username}&theme=github4" alt="Languages" width="48%" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=${s.username}&theme=dark&hide_border=true" alt="Streak" width="96%" />
+</p>`,
+
+  datascience: (s) => `<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=5,15,25&height=180&section=header&text=AI%20&%20Data%20Science%20Practitioner&fontSize=38&animation=fadeIn" width="100%" />
+
+# 🧠 ${s.fullName || 'Limzen'} | AI & Data Science Practitioner
+### ${s.role || 'Machine Learning Engineer'}
+
+<p align="center">
+  <a href="https://kaggle.com"><img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white" alt="Kaggle" /></a>
+  <a href="https://huggingface.co"><img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="HuggingFace" /></a>
+  <a href="https://linkedin.com"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:${s.email}"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+</p>
+
+</div>
+
+---
+
+### 🔬 Bidang Riset & Spesialisasi
+
+> *"${s.bio}"*
+
+| Domain Fokus | Teknologi & Metodologi |
+| :--- | :--- |
+| 🤖 **Generative AI & LLMs** | Fine-tuning, RAG (Retrieval-Augmented Generation), Agentic Workflows |
+| 👁️ **Computer Vision** | Object Detection, Semantic Segmentation, Multimodal Embeddings |
+| 📊 **Big Data & Analytics** | Pipeline ETL, Feature Store Engineering, Real-Time Model Inference |
+| ⚡ **MLOps & Deployment** | Docker, FastAPI Model Serving, Triton, Model Monitoring |
+
+---
+
+### 🧪 Data Science & ML Toolkit
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=${s.techs.join(',')}&theme=dark" alt="ML Toolkit" />
+  </a>
+</p>
+
+---
+
+### 📊 Statistik & Analisis Repositori
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=${s.username}&theme=solarized" alt="Stats" width="48%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=${s.username}&theme=solarized" alt="Languages" width="48%" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=${s.username}&theme=solarized&hide_border=true" alt="Streak" width="96%" />
 </p>`,
 
   designer: (s) => `<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=12,24,30&height=160&section=header&text=✨%20${encodeURIComponent(s.fullName || 'Designer')}%20✨&fontSize=38&animation=fadeIn" width="100%" />
 
-  <p>🎨 ${s.role || 'UI/UX Designer & Frontend Engineer'} 💻</p>
-  <p><i>${s.bio}</i></p>
+<img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=12,24,30&height=180&section=header&text=✨%20${encodeURIComponent(s.fullName || 'Limzen')}%20✨&fontSize=38&animation=fadeIn" width="100%" />
 
-  <p>
-    <a href="https://linkedin.com/in/${s.linkedin}"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-    <a href="mailto:${s.email}"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  </p>
+# 🎨 ${s.fullName || 'Limzen'} | UI/UX Designer & Frontend Craftsman
+<p><i>${s.bio}</i></p>
+
+<p align="center">
+  <a href="https://dribbble.com"><img src="https://img.shields.io/badge/Dribbble-EA4C89?style=for-the-badge&logo=dribbble&logoColor=white" alt="Dribbble" /></a>
+  <a href="https://behance.net"><img src="https://img.shields.io/badge/Behance-1769FF?style=for-the-badge&logo=behance&logoColor=white" alt="Behance" /></a>
+  <a href="https://linkedin.com"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:${s.email}"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+</p>
+
 </div>
 
 ---
 
-### 🎨 Design & Code Palette
+### 💡 Filosofi Desain & Fokus Kreatif
+
+| Pilar Desain | Pendekatan & Eksekusi |
+| :--- | :--- |
+| 📱 **Antarmuka Berpusat pada Pengguna** | Tipografi bersih, hierarki visual yang jelas, tata letak grid responsif |
+| 🔮 **Design Systems** | Komponen UI modular, token desain terstandarisasi, konsistensi multi-platform |
+| ⚡ **Interaksi & Mikro-Animasi** | Transisi halus, respons haptic, dan pengalaman pengguna yang hidup |
+
+---
+
+### 🎨 Palet Desain & Stack Teknologi
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=${s.techs.join(',')}&theme=dark" />
+    <img src="https://skillicons.dev/icons?i=${s.techs.join(',')}&theme=dark" alt="Creative Stack" />
   </a>
 </p>
 
 ---
 
-### 🌟 Statistics
+### 🌟 Statistik Repositori & Aktivitas
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=${s.username}&show_icons=true&theme=catppuccin_latte&hide_border=true" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=${s.username}&layout=compact&theme=catppuccin_latte&hide_border=true" width="48%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=${s.username}&theme=rose" alt="Stats" width="48%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=${s.username}&theme=rose" alt="Languages" width="48%" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=${s.username}&theme=rose_pine&hide_border=true" alt="Streak" width="96%" />
 </p>`,
 
   gamer: (s) => `<div align="center">
@@ -267,66 +358,75 @@ root@portfolio:~# ./contact.sh
 # 🎮 LEVEL UP: ${s.fullName || 'Player One'}
 ### ⚔️ ${s.role || 'Adventurer & Code Slayer'} • Rank: S-Tier
 
-<img src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif" width="280px" alt="Gaming Anime Gif" />
+<img src="https://media.giphy.com/media/LmNwrBhejkK9EFP504/giphy.gif" width="300px" alt="Gaming Anime Gif" />
 
-<p>
-  <img src="https://img.shields.io/badge/HP-100%25-brightgreen?style=for-the-badge&logo=heart" />
-  <img src="https://img.shields.io/badge/MANA-Infinity-blue?style=for-the-badge&logo=fire" />
-  <img src="https://img.shields.io/badge/EXP-MAX-orange?style=for-the-badge&logo=star" />
+<p align="center">
+  <img src="https://img.shields.io/badge/HP-100%25-brightgreen?style=for-the-badge&logo=heart" alt="HP" />
+  <img src="https://img.shields.io/badge/MANA-Infinity-blue?style=for-the-badge&logo=fire" alt="Mana" />
+  <img src="https://img.shields.io/badge/EXP-99999%2F100000-orange?style=for-the-badge&logo=star" alt="EXP" />
+  <img src="https://img.shields.io/badge/CLASS-FULLSTACK_MAGE-purple?style=for-the-badge" alt="Class" />
 </p>
 
 </div>
 
 ---
 
-### 🎒 Inventory & Spells (Skills)
+### 🎒 Inventory & Keahlian Khusus (Skills)
+
+| Kategori Perlengkapan | Senjata & Mantra Utama |
+| :--- | :--- |
+| 🗡️ **Senjata Utama (Bahasa)** | \`TypeScript\`, \`JavaScript\`, \`PHP\`, \`Python\` |
+| 🛡️ **Perisai & Armor (Framework)** | \`Next.js\`, \`React\`, \`Vue.js\`, \`Laravel\`, \`Tailwind CSS\` |
+| 🧪 **Ramuan & Tools (Backend & DB)** | \`PostgreSQL\`, \`MySQL\`, \`Docker\`, \`Git\`, \`Redis\` |
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=${s.techs.join(',')}&theme=dark" />
+    <img src="https://skillicons.dev/icons?i=${s.techs.join(',')}&theme=dark" alt="Inventory" />
   </a>
 </p>
 
 ---
 
-### 🏆 Guild Diagnostics
+### 📊 Statistik Petualang (Guild Diagnostics)
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=${s.username}&theme=onedark&no-frame=true&margin-w=4" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=${s.username}&theme=onedark" alt="Stats" width="48%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=${s.username}&theme=onedark" alt="Languages" width="48%" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=${s.username}&show_icons=true&theme=onedark&hide_border=true" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=${s.username}&theme=onedark&hide_border=true" width="48%" />
+  <img src="https://streak-stats.demolab.com/?user=${s.username}&theme=onedark&hide_border=true" alt="Streak" width="96%" />
 </p>`,
 
   indonesia: (s) => `<div align="center">
 
-# Halo Semua! 👋 Saya ${s.fullName || 'Developer Indonesia'}
-### ${s.role || 'Full-Stack Web Developer'} • Berbasis di Indonesia 🇮🇩
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,18,30&height=180&section=header&text=Halo%20Semua%20👋%20Saya%20${encodeURIComponent(s.fullName || 'Limzen')}&fontSize=36&animation=fadeIn" width="100%" />
+
+### ${s.role || 'Full-Stack Developer'} • Berbasis di Indonesia 🇮🇩
 
 <p align="center">
-  <a href="https://linkedin.com/in/${s.linkedin}"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="mailto:${s.email}"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <a href="https://github.com/${s.username}"><img src="https://img.shields.io/github/followers/${s.username}?style=for-the-badge&logo=github&color=333333" alt="Followers" /></a>
+  <a href="https://linkedin.com"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:${s.email}"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
 
 </div>
 
 ---
 
-### 🇮🇩 Tentang Saya
+### 🇮🇩 Tentang Saya & Fokus Pengembangan
 - 🔭 ${s.bio}
-- 💡 Tertarik pada pengembangan web modern, arsitektur software, dan performa tinggi.
-- ☕ Selalu terbuka untuk diskusi teknis, kolaborasi open source, atau sekadar bertukar pengalaman!
-- 📍 Berdomisili di Indonesia 🇮🇩.
+- 💡 Tertarik mendalam pada ekosistem **JavaScript/TypeScript, Vue/React, PHP/Laravel, dan Docker**.
+- ☕ Selalu terbuka untuk diskusi teknis, kolaborasi proyek opensource, atau sekadar bertukar pengalaman santai!
+- 📍 Berdomisili dan berkarya dari Indonesia 🇮🇩.
 
 ---
 
-### 💻 Teknologi & Tools
+### 💻 Bahasa & Teknologi yang Sering Digunakan
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=${s.techs.join(',')}&theme=dark" />
+    <img src="https://skillicons.dev/icons?i=${s.techs.join(',')}&theme=dark" alt="Skill Icons" />
   </a>
 </p>
 
@@ -335,18 +435,268 @@ root@portfolio:~# ./contact.sh
 ### 📈 Statistik Aktivitas GitHub
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=${s.username}&show_icons=true&locale=id&theme=${s.theme}&hide_border=true" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=${s.username}&layout=compact&theme=${s.theme}&hide_border=true" width="48%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=${s.username}&theme=${s.theme}" alt="GitHub Stats" width="48%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=${s.username}&theme=${s.theme}" alt="Top Languages" width="48%" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=${s.username}&theme=${s.theme}&hide_border=true" width="96%" />
+  <img src="https://streak-stats.demolab.com/?user=${s.username}&theme=${s.theme}&hide_border=true" alt="GitHub Streak" width="96%" />
+</p>`,
+
+  devops: (s) => `<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,6,15&height=180&section=header&text=DevOps%20&%20Cloud%20Architect&fontSize=38&animation=fadeIn" width="100%" />
+
+# ☁️ ${s.fullName || 'Limzen'} | Cloud & DevOps Specialist
+### Automating Infrastructure • Orchestrating Containers • Ensuring 99.99% Uptime
+
+<p align="center">
+  <img src="https://img.shields.io/badge/INFRASTRUCTURE-HEALTHY-brightgreen?style=for-the-badge&logo=prometheus" alt="Infra Health" />
+  <img src="https://img.shields.io/badge/PIPELINE-PASSING-blue?style=for-the-badge&logo=githubactions" alt="Pipeline" />
+  <a href="https://linkedin.com"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:${s.email}"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+</p>
+
+</div>
+
+---
+
+### 🚀 Spesialisasi Infrastruktur & Cloud
+
+| Pilar DevOps | Teknologi & Implementasi |
+| :--- | :--- |
+| 🐳 **Kontainerisasi & Orkestrasi** | Docker, Kubernetes, Helm, Docker Compose |
+| 🔄 **CI/CD & Otomasi Pipeline** | GitHub Actions, GitLab CI, ArgoCD (GitOps) |
+| 🏗️ **Infrastructure as Code (IaC)** | Terraform, Ansible, CloudFormation |
+| 📊 **Observabilitas & Logging** | Prometheus, Grafana, ELK Stack, OpenTelemetry |
+
+---
+
+### 🛠️ DevOps Toolkit
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=${s.techs.join(',')}&theme=dark" alt="DevOps Toolkit" />
+  </a>
 </p>
 
 ---
 
+### 📈 Metrik Aktivitas & Kontribusi
+
 <p align="center">
-  ⭐ <i>Jangan lupa beri bintang (Star) dan mari terhubung di GitHub!</i> ⭐
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=${s.username}&theme=solarized_dark" alt="Stats" width="48%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=${s.username}&theme=solarized_dark" alt="Languages" width="48%" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=${s.username}&theme=solarized_dark&hide_border=true" alt="Streak" width="96%" />
+</p>`,
+
+  mobile: (s) => `<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=3,14,24&height=180&section=header&text=Mobile%20App%20Craftsman&fontSize=38&animation=fadeIn" width="100%" />
+
+# 📱 ${s.fullName || 'Limzen'} | Mobile Application Developer
+### Crafting Fluid, Native & Cross-Platform Experiences for iOS & Android
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Google_Play-414141?style=for-the-badge&logo=google-play&logoColor=white" alt="Play Store" />
+  <img src="https://img.shields.io/badge/App_Store-0D96F6?style=for-the-badge&logo=app-store&logoColor=white" alt="App Store" />
+  <a href="https://linkedin.com"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:${s.email}"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+</p>
+
+</div>
+
+---
+
+### 📲 Kemampuan & Arsitektur Mobile
+
+| Pilar Mobile | Keahlian Teknis |
+| :--- | :--- |
+| 🚀 **Cross-Platform** | Flutter (Dart), React Native (TypeScript) |
+| 🍏 **Native Development** | Swift / SwiftUI (iOS), Kotlin / Jetpack Compose (Android) |
+| 🔄 **State Management** | BLoC, Riverpod, Redux Toolkit, Zustand |
+| 🗄️ **Local Storage & Offline** | SQLite, Hive, Room Database, Realm |
+
+---
+
+### 🧰 Mobile Stack & Tooling
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=${s.techs.join(',')}&theme=dark" alt="Mobile Stack" />
+  </a>
+</p>
+
+---
+
+### 📊 Statistik Aktivitas Repositori
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=${s.username}&theme=vue-dark" alt="Stats" width="48%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=${s.username}&theme=vue-dark" alt="Languages" width="48%" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=${s.username}&theme=vue-dark&hide_border=true" alt="Streak" width="96%" />
+</p>`,
+
+  synthwave: (s) => `<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24,28,32&height=180&section=header&text=🌴%20SYNTHWAVE%20DEVELOPER%20🌴&fontSize=38&animation=fadeIn" width="100%" />
+
+<h2 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Press+Start+2P&weight=400&size=16&pause=1000&color=FF007F&center=true&vCenter=true&random=false&width=650&lines=WELCOME+TO+THE+80S+GRID;OPERATOR%3A+${encodeURIComponent((s.fullName || 'LIMZEN').toUpperCase())};RETRO+CODE+SPECIALIST;READY+PLAYER+ONE" alt="Typing SVG" />
+</h2>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/RETRO-OUTRUN-ff007f?style=for-the-badge&logo=retroarch&logoColor=white" alt="Retro" />
+  <img src="https://img.shields.io/badge/SYNTH-CYAN-00ffff?style=for-the-badge&logoColor=black" alt="Cyan" />
+  <a href="https://github.com/${s.username}"><img src="https://img.shields.io/badge/STATION-${s.username.toUpperCase()}-9900ff?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="https://linkedin.com"><img src="https://img.shields.io/badge/NEURAL_LINK-CONNECT-00e5ff?style=for-the-badge&logo=linkedin&logoColor=black" alt="LinkedIn" /></a>
+</p>
+
+</div>
+
+---
+
+### 🕹️ Arcade Status & Spesifikasi
+
+| Channel | Data Status |
+| :--- | :--- |
+| 📼 **Operator Tag** | **${s.fullName || 'Limzen'}** (${s.role || 'Full-Stack Engineer'}) |
+| 🎛️ **Frequency** | ${s.bio} |
+| 🕹️ **Arcade High Score** | 999,999 Pts (Zero Server Downtime) |
+| 🌆 **Aesthetic Mode** | Neon Magenta / Cyan Grid • Always Vibing |
+
+---
+
+### 🎛️ Synthesizer Skill Rack
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=${s.techs.join(',')}&theme=dark" alt="Skill Rack" />
+  </a>
+</p>
+
+---
+
+### 📈 Neon Grid Diagnostics
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=${s.username}&theme=synthwave" alt="Stats" width="48%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=${s.username}&theme=synthwave" alt="Languages" width="48%" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=${s.username}&theme=synthwave&hide_border=true" alt="Streak" width="96%" />
+</p>`,
+
+  bento: (s) => `<div align="center">
+
+# 🍱 Bento Grid Portfolio — ${s.fullName || 'Limzen'}
+### ${s.role || 'Full-Stack Developer'}
+
+<p align="center">
+  <a href="https://github.com/${s.username}"><img src="https://img.shields.io/github/followers/${s.username}?style=flat-square&logo=github&label=Followers&color=24292f" alt="Followers" /></a>
+  <a href="https://linkedin.com"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:${s.email}"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
+</p>
+
+</div>
+
+---
+
+### 🍱 The Bento Matrix
+
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🚀 Tentang Saya</h3>
+      <p>${s.bio}</p>
+      <br/>
+      <b>📍 Lokasi:</b> Indonesia 🇮🇩<br/>
+      <b>💼 Status:</b> Terbuka untuk Kolaborasi & Proyek<br/>
+      <b>☕ Energi:</b> Kopi & Problem Solving
+    </td>
+    <td width="50%" valign="top">
+      <h3>🎯 Fokus Saat Ini</h3>
+      <ul>
+        <li>Membangun platform SaaS dengan Next.js & Node.js.</li>
+        <li>Optimasi arsitektur database PostgreSQL & Redis caching.</li>
+        <li>Otomasi deployment dengan Docker & GitHub Actions.</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <h3>🛠️ Ekosistem Teknologi & Bahasa</h3>
+      <a href="https://skillicons.dev">
+        <img src="https://skillicons.dev/icons?i=${s.techs.join(',')}&theme=dark" alt="Skills" />
+      </a>
+    </td>
+  </tr>
+</table>
+
+---
+
+### 📊 Metrik & Aktivitas GitHub
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=${s.username}&theme=tokyonight" alt="Stats" width="48%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=${s.username}&theme=tokyonight" alt="Languages" width="48%" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=${s.username}&theme=tokyonight&hide_border=true" alt="Streak" width="96%" />
+</p>`,
+
+  student: (s) => `<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,12,24&height=180&section=header&text=Junior%20Software%20Engineer&fontSize=38&animation=fadeIn" width="100%" />
+
+# 🎓 Halo! Saya ${s.fullName || 'Limzen'}
+### Aspiring Software Engineer • Informatics Student / Fresh Graduate
+
+<p align="center">
+  <img src="https://img.shields.io/badge/STATUS-OPEN_TO_WORK-brightgreen?style=for-the-badge&logo=briefcase" alt="Open to Work" />
+  <a href="https://linkedin.com"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:${s.email}"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+</p>
+
+</div>
+
+---
+
+### 📖 Tentang Saya & Perjalanan Belajar
+- 🎓 ${s.bio}
+- 💡 Tertarik mendalam pada **Web Development, Rekayasa Perangkat Lunak, dan Basis Data**.
+- 🚀 Telah menyelesaikan berbagai proyek studi kasus (Frontend, RESTful API, & Database).
+- 💼 **Mencari Peluang**: Magang (Internship) atau Posisi Junior Developer.
+
+---
+
+### 🛠️ Bahasa & Teknologi yang Dikuasai
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=${s.techs.join(',')}&theme=dark" alt="Skills" />
+  </a>
+</p>
+
+---
+
+### 📈 Riwayat Kontribusi & Aktivitas Belajar
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=${s.username}&theme=dracula" alt="Stats" width="48%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=${s.username}&theme=dracula" alt="Languages" width="48%" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=${s.username}&theme=dracula&hide_border=true" alt="Streak" width="96%" />
 </p>`
 };
 
@@ -356,14 +706,9 @@ function generateCurrentMarkdown() {
   return generator(state);
 }
 
-// Convert Markdown to basic HTML for preview
+// Convert Markdown to basic HTML for visual preview
 function renderMarkdownPreview(markdown) {
   let html = markdown;
-
-  // Code blocks ```yaml ... ``` or ```bash ... ```
-  html = html.replace(/```([a-z]*)\n([\s\S]*?)```/g, (match, lang, code) => {
-    return `<pre><code>${escapeHtml(code.trim())}</code></pre>`;
-  });
 
   // Headers
   html = html.replace(/^### (.*$)/gim, '<h3>$1</h3>');
@@ -373,7 +718,6 @@ function renderMarkdownPreview(markdown) {
   // Bold & Italic
   html = html.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
   html = html.replace(/\*(.*?)\*/g, '<em>$1</em>');
-  html = html.replace(/<i>(.*?)<\/i>/g, '<em>$1</em>');
 
   // Horizontal rules
   html = html.replace(/^---$/gim, '<hr>');
@@ -388,19 +732,13 @@ function renderMarkdownPreview(markdown) {
   html = html.replace(/^- (.*$)/gim, '<li>$1</li>');
   html = html.replace(/(<li>.*<\/li>)/s, '<ul>$1</ul>');
 
-  // Line breaks in paragraphs (simple conversion)
+  // Blockquotes
+  html = html.replace(/^> (.*$)/gim, '<blockquote>$1</blockquote>');
+
+  // Line breaks in paragraphs
   html = html.replace(/\n\n/g, '<br>');
 
   return html;
-}
-
-function escapeHtml(text) {
-  return text
-    .replace(/&/g, "&amp;")
-    .replace(/</g, "&lt;")
-    .replace(/>/g, "&gt;")
-    .replace(/"/g, "&quot;")
-    .replace(/'/g, "&#039;");
 }
 
 // Update UI
@@ -423,7 +761,7 @@ presetsSelector.addEventListener('click', (e) => {
 
 // Event Listeners for Form Inputs
 inputGithub.addEventListener('input', (e) => {
-  state.username = e.target.value.trim() || 'octocat';
+  state.username = e.target.value.trim() || 'Limzen';
   updateUI();
 });
 
