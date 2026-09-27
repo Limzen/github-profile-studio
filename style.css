@@ -680,10 +680,36 @@ input:focus, textarea:focus {
   margin: 1.25rem 0;
 }
 
-.github-canvas-render th,
+.github-canvas-render th {
+  padding: 10px 14px;
+  background-color: #161b22;
+  border: 1px solid #30363d;
+  font-weight: 600;
+  text-align: left;
+}
+
 .github-canvas-render td {
   padding: 10px 14px;
   border: 1px solid #30363d;
+  vertical-align: top;
+}
+
+.github-canvas-render tr:nth-child(even) td {
+  background-color: rgba(255, 255, 255, 0.015);
+}
+
+/* Borderless layout tables for profile stats cards */
+.github-canvas-render table:has(img[src*="github-profile-summary-cards"]),
+.github-canvas-render table:has(img[src*="streak-stats"]) {
+  border: none;
+  background: transparent;
+}
+
+.github-canvas-render table:has(img[src*="github-profile-summary-cards"]) td,
+.github-canvas-render table:has(img[src*="streak-stats"]) td {
+  border: none !important;
+  background: transparent !important;
+  padding: 4px 6px !important;
 }
 
 .github-canvas-render blockquote {

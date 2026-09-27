@@ -18,15 +18,17 @@
   </a>
 </p>
 
+</div>
+
 ---
 
-### 🛡️ System Specifications
+### 🛡️ Operator Telemetry & Parameters
 
-| Matrix Attribute | Telemetry Value |
+| Metric Channel | Telemetry Value |
 | :--- | :--- |
-| 🧑‍🚀 **Operator Tag** | **Limzen** (Full-Stack Cyber Specialist) |
-| 🌐 **Protocol Focus** | High-Velocity Web Applications & Reactive Interfaces |
-| 🔋 **Status** | Online • Ready for Collaboration |
+| 🧑‍🚀 **Operator Identifier** | **Limzen** (Full-Stack Cyber Specialist) |
+| 🌐 **Protocol Focus** | High-Velocity Web Applications & Reactive Architectures |
+| 🔋 **System State** | Online • Ready for Open-Source Collaboration |
 | 🎯 **Mission Objective** | Architecting resilient, high-speed software solutions |
 
 ---
@@ -43,17 +45,23 @@
 
 ### 📡 System Diagnostics & Metrics
 
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Limzen&theme=radical" alt="GitHub Stats" width="48%" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Limzen&theme=radical" alt="Top Languages" width="48%" />
-</p>
+<table align="center" width="100%">
+  <tr>
+    <td align="center" width="50%">
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Limzen&theme=radical" alt="GitHub Stats" width="100%" />
+    </td>
+    <td align="center" width="50%">
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Limzen&theme=radical" alt="Top Languages" width="100%" />
+    </td>
+  </tr>
+</table>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=Limzen&theme=radical&hide_border=true" alt="GitHub Streak" width="96%" />
+  <img src="https://streak-stats.demolab.com/?user=Limzen&theme=radical&hide_border=true" alt="GitHub Streak" width="100%" />
 </p>
 
 ---
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,24,30&height=100&section=footer" width="100%" />
-
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,24,30&height=100&section=footer" width="100%" />
 </div>
