@@ -10,7 +10,7 @@
     <a href="#-daftar-template-profil"><img src="https://img.shields.io/badge/Templates-8%2B%20Ready-brightgreen?style=for-the-badge&logo=markdown" alt="Templates" /></a>
     <a href="./docs/GITHUB_BADGES_GUIDE.md"><img src="https://img.shields.io/badge/GitHub_Badges-Complete_Guide-blueviolet?style=for-the-badge&logo=github" alt="Badges Guide" /></a>
     <a href="./LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge" alt="License" /></a>
-    <a href="https://github.com"><img src="https://img.shields.io/badge/PRs-Welcome-ff69b4?style=for-the-badge" alt="PRs Welcome" /></a>
+    <a href="https://github.com/Limzen/github-profile-studio"><img src="https://img.shields.io/badge/PRs-Welcome-ff69b4?style=for-the-badge&logo=github" alt="PRs Welcome" /></a>
   </p>
 
   <p align="center">
