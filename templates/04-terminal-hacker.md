@@ -1,15 +1,17 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=cylinder&color=0d1117&height=140&section=header&text=CONSOLE%20STATUS:%20AUTHENTICATED&fontSize=28&fontColor=00ff9d" width="100%" />
+<!-- Quick customization: replace Limzen, contact@example.com, YOUR_LINKEDIN_USERNAME, and the sample content with your own details before publishing. -->
 
-# ⚡ Limzen // Systems & Backend Engineer
-### High-Performance Systems · Cloud Architecture · Security
+<img src="https://capsule-render.vercel.app/api?type=cylinder&color=0d1117&height=140&section=header&text=root@limzen:~%23%20neofetch&fontSize=28&fontColor=00ff9d" width="100%" />
+
+# ⚡ root@limzen // Systems & Backend Engineer
+### Command-Line Junkie · High-Throughput Systems · Cloud Infrastructure
 
 <p align="center">
-  <img src="https://img.shields.io/badge/TERMINAL-ONLINE-00ff9d?style=flat-square&logo=gnubash&logoColor=black" alt="Status" />
-  <img src="https://img.shields.io/badge/SECURITY-CLEARED-00e5ff?style=flat-square&logo=shield" alt="Security" />
-  <a href="https://github.com/Limzen"><img src="https://img.shields.io/badge/GITHUB-PROFILE-ffffff?style=flat-square&logo=github&logoColor=black" alt="GitHub" /></a>
-  <a href="https://linkedin.com"><img src="https://img.shields.io/badge/NETWORK-CONNECT-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <img src="https://img.shields.io/badge/SHELL-ZSH%20%2F%20BASH-00ff9d?style=flat-square&logo=gnubash&logoColor=black" alt="Shell" />
+  <img src="https://img.shields.io/badge/SECURITY-SSH%20%26%20GPG-00e5ff?style=flat-square&logo=shield" alt="Security" />
+  <a href="https://github.com/Limzen"><img src="https://img.shields.io/badge/KERNEL-LINUX-ffffff?style=flat-square&logo=linux&logoColor=black" alt="Linux" /></a>
+  <a href="https://linkedin.com/in/YOUR_LINKEDIN_USERNAME"><img src="https://img.shields.io/badge/NETWORK-ONLINE-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:contact@example.com"><img src="https://img.shields.io/badge/INBOX-TRANSMIT-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
 
@@ -17,23 +19,46 @@
 
 ---
 
-### 🖥️ Command Center Telemetry
+### 🖥️ `neofetch` System Information
 
-| Parameter | System Telemetry |
-| :--- | :--- |
-| **Operator Identity** | **Limzen** (Core Systems & Full-Stack Engineer) |
-| **Primary Environment** | Linux / Ubuntu Server / Container Orchestration |
-| **Operational Focus** | Microservices, High-Concurrency APIs, Reactive Architectures |
-| **Diagnostic State** | All sub-routines operational • Zero critical bugs |
-| **Collaboration Status** | Open for Inquiries, Architecture Audits & Open-Source |
+<table width="100%">
+  <thead>
+    <tr>
+      <th width="35%">Hardware / Environment</th>
+      <th width="65%">Specification Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>🐧 OS & Distribution</b></td>
+      <td>Linux x86_64 / Debian Server / Docker Alpine Containers</td>
+    </tr>
+    <tr>
+      <td><b>⚙️ Shell & Terminal</b></td>
+      <td>zsh 5.9 • tmux • alacritty • starship prompt</td>
+    </tr>
+    <tr>
+      <td><b>⚡ Core Workload</b></td>
+      <td>Microservices, Asynchronous Message Queues, Zero-Downtime Releases</td>
+    </tr>
+    <tr>
+      <td><b>🔋 Uptime Status</b></td>
+      <td>99.999% • Coffee Reservoir Full • Memory Leak: None</td>
+    </tr>
+    <tr>
+      <td><b>📁 Active Workspace</b></td>
+      <td><code>~/projects/distributed-systems/</code></td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
-### 🛠️ Weapon of Choice (Toolkit)
+### 🛠️ Developer Arsenal (CLI & Core Tech)
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=linux,bash,docker,git,ts,js,nodejs,express,php,laravel,postgres,mysql,redis,python&theme=dark" alt="Skills" />
+    <img src="https://skillicons.dev/icons?i=linux,bash,docker,git,ts,nodejs,express,php,laravel,postgres,mysql,redis,python&theme=dark" alt="Arsenal" />
   </a>
 </p>
 
@@ -59,5 +84,7 @@
 ---
 
 <div align="center">
-  <p><i>[SYSTEM EVENT]: Session active. Leave a Star ⭐ to bookmark this station.</i></p>
+
+<!-- Quick customization: replace Limzen, contact@example.com, YOUR_LINKEDIN_USERNAME, and the sample content with your own details before publishing. -->
+  <p><code>[exit 0] — Star ⭐ this station to bookmark telemetry session.</code></p>
 </div>

@@ -1,11 +1,13 @@
 <div align="center">
 
-# 🍱 Bento Grid Developer Profile — Limzen
-### Full-Stack Software Engineer · Interface Craftsman · Open Source Contributor
+<!-- Quick customization: replace Limzen, contact@example.com, YOUR_LINKEDIN_USERNAME, and the sample content with your own details before publishing. -->
+
+# 🍱 Limzen
+### Full-Stack Software Engineer · Interface Enthusiast · Open Source Contributor
 
 <p align="center">
   <a href="https://github.com/Limzen?tab=followers"><img src="https://img.shields.io/github/followers/Limzen?style=flat-square&logo=github&label=Followers&color=24292f" alt="Followers" /></a>
-  <a href="https://linkedin.com"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://linkedin.com/in/YOUR_LINKEDIN_USERNAME"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:contact@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
 
@@ -13,39 +15,57 @@
 
 ---
 
-### 🍱 The Bento Workspace Matrix
+### 🍱 The Bento Grid
 
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
-      <h3>🚀 Profile & Philosophy</h3>
-      <p>Building high-velocity web products from concept to deployment. Obsessed with sub-second page loads, modular component architectures, and clean code ergonomics.</p>
+      <h4>🚀 About & Context</h4>
+      <p>Building high-velocity products from first wireframe to production deploy. Obsessed with sub-second load times, modular architecture, and code that reads like prose.</p>
       <br/>
-      <b>📍 Location:</b> Indonesia 🇮🇩<br/>
-      <b>💼 Current Status:</b> Open for Full-Stack Roles & Collaboration<br/>
-      <b>☕ Core Fuel:</b> Dark Roast Coffee & Continuous Iteration
+      <table>
+        <tr><td><b>📍</b></td><td>Indonesia 🇮🇩 (UTC+7)</td></tr>
+        <tr><td><b>💼</b></td><td>Open to SWE roles & collaboration</td></tr>
+        <tr><td><b>☕</b></td><td>Dark roast + infinite iteration</td></tr>
+      </table>
     </td>
     <td width="50%" valign="top">
-      <h3>🎯 Active Focus & R&D</h3>
-      <ul>
-        <li>Architecting scalable Next.js and Node.js web platforms.</li>
-        <li>Optimizing database indexing (PostgreSQL) and Redis caching layers.</li>
-        <li>Writing automated CI/CD workflows and container orchestration.</li>
-        <li>Exploring local-first software and reactive real-time sync.</li>
-      </ul>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center">
-      <h3>🛠️ Core Technology Ecosystem</h3>
-      <br/>
-      <a href="https://skillicons.dev">
-        <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,vue,tailwind,nodejs,express,php,laravel,postgres,mysql,docker,git&theme=dark" alt="Skills" />
-      </a>
-      <br/><br/>
+      <h4>🎯 Active Roadmap</h4>
+      <table>
+        <tr><td>✅</td><td>Architecting Next.js 15 + tRPC SaaS platform</td></tr>
+        <tr><td>🔄</td><td>PostgreSQL query tuning & Redis caching strategy</td></tr>
+        <tr><td>📌</td><td>GitHub Actions zero-downtime deployment pipeline</td></tr>
+        <tr><td>🔭</td><td>Local-first sync with CRDTs & reactive state engines</td></tr>
+      </table>
     </td>
   </tr>
 </table>
+
+---
+
+### 🛠️ Technology Ecosystem
+
+<table width="100%">
+  <tr>
+    <td width="25%"><b>⚡ Daily Drivers</b></td>
+    <td>TypeScript, Next.js, React, Tailwind CSS, PostgreSQL, Node.js</td>
+  </tr>
+  <tr>
+    <td><b>🛡️ Battle-Tested</b></td>
+    <td>PHP / Laravel, Vue.js 3, Express, MySQL, Redis, Docker</td>
+  </tr>
+  <tr>
+    <td><b>🔭 R&D Frontier</b></td>
+    <td>Rust, CRDTs, Edge Functions, WebAssembly, Distributed Systems</td>
+  </tr>
+</table>
+
+<p align="center">
+  <br/>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,vue,tailwind,nodejs,express,php,laravel,postgres,mysql,docker,git&theme=dark" alt="Skills" />
+  </a>
+</p>
 
 ---
 
@@ -69,5 +89,7 @@
 ---
 
 <div align="center">
-  <p>⭐ <i>Enjoying this Bento Grid layout? Hit the Star button to bookmark this structure!</i> ⭐</p>
+
+<!-- Quick customization: replace Limzen, contact@example.com, YOUR_LINKEDIN_USERNAME, and the sample content with your own details before publishing. -->
+  <p>⭐ <i>Enjoying this Bento layout? Hit Star to bookmark this profile structure!</i> ⭐</p>
 </div>

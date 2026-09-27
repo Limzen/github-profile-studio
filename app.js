@@ -33,7 +33,7 @@ const inputLinkedin = document.getElementById('input-linkedin');
 const inputEmail = document.getElementById('input-email');
 const inputTheme = document.getElementById('input-theme');
 
-// // 13 Template Generator Functions (No raw code blocks, 100% verified working images)
+// 14 template generator functions (no raw code blocks, verified image providers)
 const templateGenerators = {
   minimalist: (s) => `<div align="center">
 
@@ -42,7 +42,7 @@ const templateGenerators = {
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=${s.username}&label=Profile%20Views&color=0e75b6&style=flat-square" alt="Profile Views" />
-  <a href="https://linkedin.com"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://linkedin.com/in/${s.linkedin}"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:${s.email}"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
   <a href="https://github.com/${s.username}?tab=followers"><img src="https://img.shields.io/github/followers/${s.username}?style=flat-square&color=24292f&logo=github&label=Followers" alt="Followers" /></a>
 </p>
@@ -110,7 +110,7 @@ const templateGenerators = {
   <a href="https://github.com/${s.username}?tab=followers">
     <img src="https://img.shields.io/github/followers/${s.username}?style=flat-square&logo=github&color=00e5ff&labelColor=000000" alt="Followers" />
   </a>
-  <a href="https://linkedin.com">
+  <a href="https://linkedin.com/in/${s.linkedin}">
     <img src="https://img.shields.io/badge/NEURAL_LINK-000000?style=flat-square&logo=linkedin&logoColor=00e5ff" alt="LinkedIn" />
   </a>
 </p>
@@ -171,7 +171,7 @@ const templateGenerators = {
 ### ${s.role || 'Full-Stack Engineer · Open Source · Indonesia 🇮🇩'}
 
 <p align="center">
-  <a href="https://linkedin.com"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://linkedin.com/in/${s.linkedin}"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:${s.email}"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
   <a href="https://github.com/${s.username}"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
   <a href="https://github.com/${s.username}?tab=followers"><img src="https://img.shields.io/github/followers/${s.username}?style=flat-square&color=181717&logo=github&label=Followers" alt="Followers" /></a>
@@ -234,7 +234,7 @@ const templateGenerators = {
   <img src="https://img.shields.io/badge/TERMINAL-ONLINE-00ff9d?style=flat-square&logo=gnubash&logoColor=black" alt="Status" />
   <img src="https://img.shields.io/badge/SECURITY-CLEARED-00e5ff?style=flat-square&logo=shield" alt="Security" />
   <a href="https://github.com/${s.username}"><img src="https://img.shields.io/badge/GITHUB-PROFILE-ffffff?style=flat-square&logo=github&logoColor=black" alt="GitHub" /></a>
-  <a href="https://linkedin.com"><img src="https://img.shields.io/badge/NETWORK-CONNECT-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://linkedin.com/in/${s.linkedin}"><img src="https://img.shields.io/badge/NETWORK-CONNECT-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:${s.email}"><img src="https://img.shields.io/badge/INBOX-TRANSMIT-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
 
@@ -289,7 +289,7 @@ const templateGenerators = {
 
   datascience: (s) => `<div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=5,15,25&height=180&section=header&text=AI%20&%20Data%20Science%20Practitioner&fontSize=38&animation=fadeIn" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=5,15,25&height=180&section=header&text=AI%20%26%20Data%20Science%20Practitioner&fontSize=38&animation=fadeIn" width="100%" />
 
 # 🧠 ${s.fullName || 'Limzen'} | AI & Data Science Practitioner
 ### ${s.role || 'Machine Learning Engineer · Data Architect · Researcher'}
@@ -297,7 +297,7 @@ const templateGenerators = {
 <p align="center">
   <a href="https://kaggle.com"><img src="https://img.shields.io/badge/Kaggle-20BEFF?style=flat-square&logo=Kaggle&logoColor=white" alt="Kaggle" /></a>
   <a href="https://huggingface.co"><img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black" alt="HuggingFace" /></a>
-  <a href="https://linkedin.com"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://linkedin.com/in/${s.linkedin}"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:${s.email}"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
   <a href="https://github.com/${s.username}?tab=followers"><img src="https://img.shields.io/github/followers/${s.username}?style=flat-square&color=24292f&logo=github&label=Followers" alt="Followers" /></a>
 </p>
@@ -362,7 +362,7 @@ const templateGenerators = {
 <p align="center">
   <a href="https://dribbble.com"><img src="https://img.shields.io/badge/Dribbble-EA4C89?style=flat-square&logo=dribbble&logoColor=white" alt="Dribbble" /></a>
   <a href="https://behance.net"><img src="https://img.shields.io/badge/Behance-1769FF?style=flat-square&logo=behance&logoColor=white" alt="Behance" /></a>
-  <a href="https://linkedin.com"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://linkedin.com/in/${s.linkedin}"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:${s.email}"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
   <a href="https://github.com/${s.username}?tab=followers"><img src="https://img.shields.io/github/followers/${s.username}?style=flat-square&color=24292f&logo=github&label=Followers" alt="Followers" /></a>
 </p>
@@ -490,7 +490,7 @@ const templateGenerators = {
 
 <p align="center">
   <a href="https://github.com/${s.username}?tab=followers"><img src="https://img.shields.io/github/followers/${s.username}?style=flat-square&color=24292f&logo=github&label=Pengikut" alt="Followers" /></a>
-  <a href="https://linkedin.com"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://linkedin.com/in/${s.linkedin}"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:${s.email}"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
 
@@ -544,7 +544,7 @@ const templateGenerators = {
 
   devops: (s) => `<div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,6,15&height=180&section=header&text=DevOps%20&%20Cloud%20Architect&fontSize=38&animation=fadeIn" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,6,15&height=180&section=header&text=DevOps%20%26%20Cloud%20Architect&fontSize=38&animation=fadeIn" width="100%" />
 
 # ☁️ ${s.fullName || 'Limzen'} | Cloud & DevOps Specialist
 ### ${s.role || 'Automating Infrastructure · Orchestrating Containers · Ensuring 99.99% Uptime'}
@@ -552,7 +552,7 @@ const templateGenerators = {
 <p align="center">
   <img src="https://img.shields.io/badge/INFRASTRUCTURE-HEALTHY-10b981?style=flat-square&logo=prometheus&logoColor=white" alt="Infra Health" />
   <img src="https://img.shields.io/badge/PIPELINE-PASSING-3b82f6?style=flat-square&logo=githubactions&logoColor=white" alt="Pipeline" />
-  <a href="https://linkedin.com"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://linkedin.com/in/${s.linkedin}"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:${s.email}"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
   <a href="https://github.com/${s.username}?tab=followers"><img src="https://img.shields.io/github/followers/${s.username}?style=flat-square&color=24292f&logo=github&label=Followers" alt="Followers" /></a>
 </p>
@@ -616,7 +616,7 @@ const templateGenerators = {
 <p align="center">
   <img src="https://img.shields.io/badge/Google_Play-414141?style=flat-square&logo=google-play&logoColor=white" alt="Play Store" />
   <img src="https://img.shields.io/badge/App_Store-0D96F6?style=flat-square&logo=app-store&logoColor=white" alt="App Store" />
-  <a href="https://linkedin.com"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://linkedin.com/in/${s.linkedin}"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:${s.email}"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
   <a href="https://github.com/${s.username}?tab=followers"><img src="https://img.shields.io/github/followers/${s.username}?style=flat-square&color=24292f&logo=github&label=Followers" alt="Followers" /></a>
 </p>
@@ -625,15 +625,38 @@ const templateGenerators = {
 
 ---
 
-### 📲 Mobile Architecture & Engineering Matrix
+### 📲 Mobile Engineering Architecture Matrix
 
-| Engineering Pillar | Methodologies & Technologies |
-| :--- | :--- |
-| 🚀 **Cross-Platform Engineering** | Flutter (Dart), React Native (TypeScript), Expo Application Services |
-| 🍏 **Native Platform Integration** | Swift / SwiftUI (iOS), Kotlin / Jetpack Compose (Android), Platform Channels |
-| 🔄 **State Management** | BLoC, Riverpod, Redux Toolkit, Zustand, MobX |
-| 🗄️ **Local Storage & Offline First** | SQLite, Hive, Room Database, WatermelonDB, Encrypted Storage |
-| ⚡ **Cloud Services & Push Ops** | Firebase Cloud Messaging (FCM), Supabase, GraphQL, RESTful APIs |
+<table width="100%">
+  <thead>
+    <tr>
+      <th width="30%">Engineering Layer</th>
+      <th width="70%">Technologies, Patterns &amp; Production Standards</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>🚀 Cross-Platform Frameworks</b></td>
+      <td>Flutter 3 (Material 3 + custom theming), React Native (New Architecture, Expo EAS)</td>
+    </tr>
+    <tr>
+      <td><b>🍏 Native Integration</b></td>
+      <td>Swift / SwiftUI (iOS 17+), Kotlin / Jetpack Compose, Platform Channels, MethodChannel</td>
+    </tr>
+    <tr>
+      <td><b>🔄 State Management</b></td>
+      <td>BLoC + Riverpod (Flutter), Redux Toolkit / Zustand (RN), MobX, Jotai</td>
+    </tr>
+    <tr>
+      <td><b>🗄️ Offline &amp; Local Storage</b></td>
+      <td>SQLite / Drift, Hive (Dart), Room Database (Android), CoreData (iOS), WatermelonDB</td>
+    </tr>
+    <tr>
+      <td><b>☁️ Cloud Backend &amp; Realtime</b></td>
+      <td>Firebase (Auth, FCM Push, Firestore), Supabase, GraphQL subscriptions, REST APIs</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
@@ -682,7 +705,7 @@ const templateGenerators = {
   <img src="https://img.shields.io/badge/RETRO-OUTRUN-ff007f?style=flat-square&logo=retroarch&logoColor=white" alt="Retro" />
   <img src="https://img.shields.io/badge/SYNTH-CYAN-00ffff?style=flat-square&logoColor=black" alt="Cyan" />
   <a href="https://github.com/${s.username}"><img src="https://img.shields.io/badge/STATION-${s.username.toUpperCase()}-9900ff?style=flat-square&logo=github&logoColor=white" alt="GitHub" /></a>
-  <a href="https://linkedin.com"><img src="https://img.shields.io/badge/NEURAL_LINK-CONNECT-00e5ff?style=flat-square&logo=linkedin&logoColor=black" alt="LinkedIn" /></a>
+  <a href="https://linkedin.com/in/${s.linkedin}"><img src="https://img.shields.io/badge/NEURAL_LINK-CONNECT-00e5ff?style=flat-square&logo=linkedin&logoColor=black" alt="LinkedIn" /></a>
   <a href="mailto:${s.email}"><img src="https://img.shields.io/badge/GRID_SIGNAL-TRANSMIT-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
 
@@ -690,14 +713,34 @@ const templateGenerators = {
 
 ---
 
-### 🕹️ Arcade Grid Status & Specifications
+### 🕹️ Outrun Grid Status · System Specifications
 
-| Channel Frequency | Matrix Data Value |
-| :--- | :--- |
-| 📼 **Operator Identifier** | **${s.fullName || 'Limzen'}** (${s.role || 'Full-Stack Engineer & Retro Futurist'}) |
-| 🎛️ **Frequency Band** | ${s.bio || 'High-Velocity Modern Web Development & Creative Frontend'} |
-| 🕹️ **Arcade High Score** | 999,999 Pts (Zero Server Downtime • 100% Test Coverage) |
-| 🌆 **Aesthetic Mode** | Neon Magenta / Cyan Grid • Always Vibing at 120 BPM |
+<table width="100%">
+  <thead>
+    <tr>
+      <th width="35%">Channel / Frequency</th>
+      <th width="65%">Grid Transmission Data</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>📼 Operator Identifier</b></td>
+      <td><b>${s.fullName || 'Limzen'}</b> — Full-Stack Engineer &amp; Neon Aesthetics Practitioner</td>
+    </tr>
+    <tr>
+      <td><b>🎛️ Active Frequency</b></td>
+      <td>${s.bio || 'High-velocity modern web engineering with retro-futurist creative direction'}</td>
+    </tr>
+    <tr>
+      <td><b>🕹️ Arcade High Score</b></td>
+      <td>999,999 PTS — Zero server crashes • 100% automated CI/CD pipelines</td>
+    </tr>
+    <tr>
+      <td><b>🌆 Aesthetic Signature</b></td>
+      <td>Neon magenta + cyan grid palette · Forever vibing at 120 BPM · Sunset horizon UI</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
@@ -743,7 +786,7 @@ const templateGenerators = {
 
 <p align="center">
   <a href="https://github.com/${s.username}?tab=followers"><img src="https://img.shields.io/github/followers/${s.username}?style=flat-square&logo=github&label=Followers&color=24292f" alt="Followers" /></a>
-  <a href="https://linkedin.com"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://linkedin.com/in/${s.linkedin}"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:${s.email}"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
 
@@ -751,37 +794,48 @@ const templateGenerators = {
 
 ---
 
-### 🍱 The Bento Workspace Matrix
+### 🍱 The Bento Grid
 
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
-      <h3>🚀 Profile & Philosophy</h3>
-      <p>${s.bio || 'Building high-velocity web products from concept to deployment. Obsessed with sub-second page loads, modular component architectures, and clean code ergonomics.'}</p>
+      <h4>🚀 About &amp; Context</h4>
+      <p>${s.bio || 'Building high-velocity products from first wireframe to production deploy. Obsessed with sub-second load times, modular architecture, and code that reads like prose.'}</p>
       <br/>
-      <b>📍 Location:</b> Indonesia 🇮🇩<br/>
-      <b>💼 Current Status:</b> Open for Full-Stack Roles & Collaboration<br/>
-      <b>☕ Core Fuel:</b> Dark Roast Coffee & Continuous Iteration
+      <table>
+        <tr><td><b>📍</b></td><td>Indonesia 🇮🇩 (UTC+7)</td></tr>
+        <tr><td><b>💼</b></td><td>Open to SWE roles &amp; collaboration</td></tr>
+        <tr><td><b>☕</b></td><td>Dark roast + infinite iteration</td></tr>
+      </table>
     </td>
     <td width="50%" valign="top">
-      <h3>🎯 Active Focus & R&D</h3>
-      <ul>
-        <li>Architecting scalable Next.js and Node.js web platforms.</li>
-        <li>Optimizing database indexing (PostgreSQL) and Redis caching layers.</li>
-        <li>Writing automated CI/CD workflows and container orchestration.</li>
-        <li>Exploring local-first software and reactive real-time sync.</li>
-      </ul>
+      <h4>🎯 Active Roadmap</h4>
+      <table>
+        <tr><td>✅</td><td>Architecting Next.js 15 + tRPC SaaS platform</td></tr>
+        <tr><td>🔄</td><td>PostgreSQL query tuning &amp; Redis caching strategy</td></tr>
+        <tr><td>📌</td><td>GitHub Actions zero-downtime deployment pipeline</td></tr>
+        <tr><td>🔭</td><td>Local-first sync with CRDTs &amp; reactive state engines</td></tr>
+      </table>
     </td>
   </tr>
+</table>
+
+---
+
+### 🛠️ Technology Ecosystem
+
+<table width="100%">
   <tr>
-    <td colspan="2" align="center">
-      <h3>🛠️ Core Technology Ecosystem</h3>
-      <br/>
-      <a href="https://skillicons.dev">
-        <img src="https://skillicons.dev/icons?i=${s.techs.join(',')}&theme=dark" alt="Skills" />
-      </a>
-      <br/><br/>
-    </td>
+    <td width="25%"><b>⚡ Daily Drivers</b></td>
+    <td>TypeScript, Next.js, React, Tailwind CSS, PostgreSQL, Node.js</td>
+  </tr>
+  <tr>
+    <td><b>🛡️ Battle-Tested</b></td>
+    <td>PHP / Laravel, Vue.js 3, Express, MySQL, Redis, Docker</td>
+  </tr>
+  <tr>
+    <td><b>🔭 R&amp;D Frontier</b></td>
+    <td>Rust, CRDTs, Edge Functions, WebAssembly, Distributed Systems</td>
   </tr>
 </table>
 
@@ -819,7 +873,7 @@ const templateGenerators = {
 
 <p align="center">
   <img src="https://img.shields.io/badge/STATUS-OPEN_TO_WORK-10b981?style=flat-square&logo=briefcase&logoColor=white" alt="Open to Work" />
-  <a href="https://linkedin.com"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://linkedin.com/in/${s.linkedin}"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:${s.email}"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
   <a href="https://github.com/${s.username}?tab=followers"><img src="https://img.shields.io/github/followers/${s.username}?style=flat-square&color=24292f&logo=github&label=Followers" alt="Followers" /></a>
 </p>
@@ -828,26 +882,46 @@ const templateGenerators = {
 
 ---
 
-### 📖 About Me & Engineering Journey
+### 📋 Student Developer Dossier
 
-- 🎓 Computer Science / Informatics background with strong foundation in data structures & algorithms.
-- 💡 Deep interest in **${s.bio || 'Modern Web Development, Distributed Systems, and Database Engineering'}**.
-- 🚀 Completed multiple full-stack case studies spanning REST APIs, responsive UIs, and relational databases.
-- 💼 **Available for**: Software Engineering Internships & Entry-Level / Junior Developer Roles.
+<table width="100%">
+  <thead>
+    <tr>
+      <th width="28%">Category</th>
+      <th width="72%">Details</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>🏫 Institution</b></td>
+      <td>University of Technology — B.Sc. Computer Science, Class of 2026</td>
+    </tr>
+    <tr>
+      <td><b>🔬 Focus Areas</b></td>
+      <td>${s.bio || 'Web Engineering · Data Structures &amp; Algorithms · Machine Learning Fundamentals'}</td>
+    </tr>
+    <tr>
+      <td><b>📚 Relevant Coursework</b></td>
+      <td>Operating Systems · Computer Networks · Database Design · Software Engineering</td>
+    </tr>
+    <tr>
+      <td><b>🏆 Achievements</b></td>
+      <td>Hackathon Winner × 2 · Dean's List 2024 · ACM ICPC Regional Qualifier</td>
+    </tr>
+    <tr>
+      <td><b>🔭 Currently Exploring</b></td>
+      <td>Web scraping pipelines, REST API design, open-source contributions</td>
+    </tr>
+    <tr>
+      <td><b>🤝 Seeking</b></td>
+      <td>Software Engineering Internship (2024–2025) · Research Opportunities</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
-### 📚 Featured Projects & Case Studies
-
-| Project | Description | Core Stack |
-| :--- | :--- | :--- |
-| 🌐 **E-Commerce Platform** | Full-featured storefront with product catalog, cart persistence, and stripe checkout | React, Node.js, Express, PostgreSQL |
-| 📋 **Collaborative Task Hub** | Kanban task tracker featuring real-time state updates, JWT auth, and role permissions | Vue.js, Laravel, Tailwind CSS, MySQL |
-| 🤖 **Automated Telemetry Bot** | Scheduled notification worker with automated report summaries | Python, Telegram Bot API, Docker |
-
----
-
-### 🛠️ Technical Toolkit & Languages
+### 🛠️ Stack I'm Learning &amp; Building With
 
 <p align="center">
   <a href="https://skillicons.dev">
@@ -857,27 +931,117 @@ const templateGenerators = {
 
 ---
 
-### 📈 Learning Trajectory & GitHub Activity
+### 📊 GitHub Learning Activity
 
 <table align="center" width="100%">
   <tr>
     <td align="center" width="50%">
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=${s.username}&theme=dracula" alt="Stats" width="100%" />
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=${s.username}&theme=github_dark" alt="Stats" width="100%" />
     </td>
     <td align="center" width="50%">
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=${s.username}&theme=dracula" alt="Languages" width="100%" />
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=${s.username}&theme=github_dark" alt="Languages" width="100%" />
     </td>
   </tr>
 </table>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=${s.username}&theme=dracula&hide_border=true" alt="Streak" width="100%" />
+  <img src="https://streak-stats.demolab.com/?user=${s.username}&theme=github-dark-blue&hide_border=true" alt="Streak" width="100%" />
 </p>
 
 ---
 
 <div align="center">
-  <p>⭐ <i>Your Star and feedback mean a lot for my software engineering journey! Thank you!</i> ⭐</p>
+  <p>⭐ <i>Fellow student or mentor? Drop a Star and let's connect!</i> ⭐</p>
+  <br/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=3,14,18&height=100&section=footer" width="100%" />
+</div>`,
+
+  studentlearner: (s) => `<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=3,14,18&height=180&section=header&text=Student%20%26%20Developer&fontSize=38&animation=fadeIn" width="100%" />
+
+# 🎓 ${s.fullName || 'Limzen'} | CS Student & Aspiring Engineer
+### ${s.role || 'Computer Science · Building real things on the side'}
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Major-Computer_Science-4F46E5?style=flat-square&logo=graduation-cap&logoColor=white" alt="Major" />
+  <img src="https://img.shields.io/badge/Status-Learning_in_Public-22c55e?style=flat-square" alt="Learning in public" />
+  <a href="https://github.com/${s.username}?tab=followers"><img src="https://img.shields.io/github/followers/${s.username}?style=flat-square&logo=github&label=Followers&color=24292f" alt="Followers" /></a>
+  <a href="https://linkedin.com/in/${s.linkedin}"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+</p>
+
+</div>
+
+---
+
+### 📋 Student Developer Dossier
+
+| Area | Current direction |
+| :--- | :--- |
+| 🔬 **Focus** | ${s.bio || 'Web engineering · Data structures · Machine learning fundamentals'} |
+| 📚 **Coursework** | Operating systems · networks · databases · software engineering |
+| 🔭 **Exploring** | APIs, practical automation, testing, and open-source collaboration |
+| 🤝 **Open to** | Internships, mentorship, and useful student-friendly projects |
+
+---
+
+### 🧪 Campus Build Log
+
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h4>⚙️ This Semester</h4>
+      <ul>
+        <li>Ship one project with a real user problem.</li>
+        <li>Write a short technical note after every build.</li>
+        <li>Practice code review on open-source issues.</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h4>🚀 Portfolio Signals</h4>
+      <ul>
+        <li>Readable README and live demo for each project.</li>
+        <li>Tests, deployment notes, and honest trade-offs.</li>
+        <li>Small, consistent contributions over empty streaks.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+---
+
+### 🛠️ Learning Stack
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=${s.techs.join(',')}&theme=dark" alt="Learning stack" />
+  </a>
+</p>
+
+---
+
+### 📊 GitHub Learning Activity
+
+<table align="center" width="100%">
+  <tr>
+    <td align="center" width="50%">
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=${s.username}&theme=github_dark" alt="GitHub statistics" width="100%" />
+    </td>
+    <td align="center" width="50%">
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=${s.username}&theme=github_dark" alt="Most-used languages" width="100%" />
+    </td>
+  </tr>
+</table>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=${s.username}&theme=github-dark-blue&hide_border=true" alt="GitHub contribution streak" width="100%" />
+</p>
+
+---
+
+<div align="center">
+  <p>⭐ <i>Fellow student or mentor? Drop a star and let's connect.</i> ⭐</p>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=3,14,18&height=100&section=footer" width="100%" />
 </div>`
 };
 

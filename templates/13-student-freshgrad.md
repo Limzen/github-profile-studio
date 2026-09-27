@@ -1,5 +1,7 @@
 <div align="center">
 
+<!-- Quick customization: replace Limzen, contact@example.com, YOUR_LINKEDIN_USERNAME, and the sample content with your own details before publishing. -->
+
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,12,24&height=180&section=header&text=Junior%20Software%20Engineer&fontSize=38&animation=fadeIn" width="100%" />
 
 # 🎓 Hi, I'm Limzen
@@ -7,7 +9,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/STATUS-OPEN_TO_WORK-10b981?style=flat-square&logo=briefcase&logoColor=white" alt="Open to Work" />
-  <a href="https://linkedin.com"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://linkedin.com/in/YOUR_LINKEDIN_USERNAME"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:contact@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
   <a href="https://github.com/Limzen?tab=followers"><img src="https://img.shields.io/github/followers/Limzen?style=flat-square&color=24292f&logo=github&label=Followers" alt="Followers" /></a>
 </p>
@@ -65,5 +67,7 @@
 ---
 
 <div align="center">
+
+<!-- Quick customization: replace Limzen, contact@example.com, YOUR_LINKEDIN_USERNAME, and the sample content with your own details before publishing. -->
   <p>⭐ <i>Your Star and feedback mean a lot for my software engineering journey! Thank you!</i> ⭐</p>
 </div>

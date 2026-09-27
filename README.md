@@ -3,11 +3,11 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,2,24,30&height=220&section=header&text=Aesthetic%20GitHub%20Profile%20Studio&fontSize=42&fontAlignY=38&animation=twinkling&fontColor=ffffff" width="100%" />
 
   <p align="center">
-    <strong>🚀 10+ Ready-to-use Aesthetic GitHub Profile README Templates + Interactive Live Generator + Complete GitHub Badges & Achievements Guide.</strong>
+    <strong>🚀 14 ready-to-use aesthetic GitHub Profile README templates + interactive live generator + complete GitHub badges & achievements guide.</strong>
   </p>
 
   <p align="center">
-    <a href="#-daftar-template-profil"><img src="https://img.shields.io/badge/Templates-8%2B%20Ready-brightgreen?style=for-the-badge&logo=markdown" alt="Templates" /></a>
+    <a href="#-galeri-14-template-siap-pakai"><img src="https://img.shields.io/badge/Templates-14%20Ready-brightgreen?style=for-the-badge&logo=markdown" alt="Templates" /></a>
     <a href="./docs/GITHUB_BADGES_GUIDE.md"><img src="https://img.shields.io/badge/GitHub_Badges-Complete_Guide-blueviolet?style=for-the-badge&logo=github" alt="Badges Guide" /></a>
     <a href="./LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge" alt="License" /></a>
     <a href="https://github.com/Limzen/github-profile-studio"><img src="https://img.shields.io/badge/PRs-Welcome-ff69b4?style=for-the-badge&logo=github" alt="PRs Welcome" /></a>
@@ -34,7 +34,7 @@
 
 ## ✨ Fitur Unggulan
 
-- 💎 **13+ Template Desain Estetik Siap Pakai**: Tanpa blok kode mentah, 100% menggunakan tata letak visual, tabel modern, dan widget yang teruji aktif.
+- 💎 **14 Template Desain Estetik Siap Pakai**: Tanpa blok kode mentah, menggunakan tata letak visual, tabel modern, dan widget yang teruji aktif.
 - 🇮🇩 **Special Indonesian Dev Template**: Disesuaikan dengan sentuhan lokal komunitas programmer Indonesia.
 - 💻 **Interactive Live Generator**: Buka file `index.html` di browser atau via GitHub Pages untuk mengedit nama, bio, dan melihat pratinjau live secara instan!
 - 🏅 **Panduan Achievement / Badges GitHub**: Cara mudah dan cepat membuka lencana *Starstruck*, *Pull Shark*, *Quickdraw*, *Pair Extraordinaire*, dan lainnya.
@@ -42,7 +42,7 @@
 
 ---
 
-## 🎨 Galeri 13 Template Siap Pakai
+## 🎨 Galeri 14 Template Siap Pakai
 
 Semua template tersimpan rapi di folder [`templates/`](./templates/) dan dapat langsung Anda salin:
 
@@ -61,6 +61,7 @@ Semua template tersimpan rapi di folder [`templates/`](./templates/) dan dapat l
 | 11 | 🌴 **Retro Synthwave 80s** | Outrun neon magenta/cyan, font arcade retro | [Lihat Kode](./templates/11-retro-synthwave-80s.md) |
 | 12 | 🍱 **Bento Grid Modern** | Tata letak kartu Bento terstruktur dan rapi | [Lihat Kode](./templates/12-bento-grid-modern.md) |
 | 13 | 🎓 **Junior & Fresh Graduate** | Khusus mahasiswa & pencari kerja tech pertama | [Lihat Kode](./templates/13-student-freshgrad.md) |
+| 14 | 📚 **Student Learner** | Dossier akademik untuk mahasiswa CS yang membangun portofolio | [Lihat Kode](./templates/14-student-learner.md) |
 
 ---
 
@@ -98,7 +99,7 @@ Kami telah menyusun panduan trik cepatnya di dokumen khusus:
 2. Pastikan opsi **Public** dicentang.
 3. Centang opsi **Add a README file**.
 4. Buka file `README.md` yang baru dibuat di repo tersebut, lalu salin dan tempel salah satu template pilihan Anda dari repo ini.
-5. Ganti teks `<YOUR_GITHUB_USERNAME>` dengan username GitHub Anda yang sebenarnya.
+5. Ganti nama, username GitHub, tautan sosial, dan isi contoh dengan data Anda sendiri. Petunjuk penggantian tersedia di komentar pada setiap file template.
 6. Klik **Commit changes** — halaman profil GitHub Anda sekarang tampil memukau!
 
 ---

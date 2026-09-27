@@ -1,35 +1,63 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,6,15&height=180&section=header&text=DevOps%20&%20Cloud%20Architect&fontSize=38&animation=fadeIn" width="100%" />
+<!-- Quick customization: replace Limzen, contact@example.com, YOUR_LINKEDIN_USERNAME, and the sample content with your own details before publishing. -->
 
-# ☁️ Limzen | Cloud & DevOps Specialist
-### Automating Infrastructure · Orchestrating Containers · Ensuring 99.99% Uptime
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,6,15&height=180&section=header&text=DevOps%20%26%20Cloud%20Architect&fontSize=38&animation=fadeIn" width="100%" />
+
+# ☁️ Limzen | Site Reliability & Cloud Architect
+### Automating Infrastructure · Orchestrating Distributed Clusters · 99.999% SLA
 
 <p align="center">
   <img src="https://img.shields.io/badge/INFRASTRUCTURE-HEALTHY-10b981?style=flat-square&logo=prometheus&logoColor=white" alt="Infra Health" />
   <img src="https://img.shields.io/badge/PIPELINE-PASSING-3b82f6?style=flat-square&logo=githubactions&logoColor=white" alt="Pipeline" />
-  <a href="https://linkedin.com"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <img src="https://img.shields.io/badge/GITOPS-SYNCED-8b5cf6?style=flat-square&logo=argo&logoColor=white" alt="ArgoCD" />
+  <a href="https://linkedin.com/in/YOUR_LINKEDIN_USERNAME"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:contact@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://github.com/Limzen?tab=followers"><img src="https://img.shields.io/github/followers/Limzen?style=flat-square&color=24292f&logo=github&label=Followers" alt="Followers" /></a>
+  <a href="https://github.com/Limzen?tab=followers"><img src="https://img.shields.io/github/followers/Limzen?style=flat-square&color=24292f&logo=github&label=Nodes" alt="Followers" /></a>
 </p>
+
+> *"If it isn't automated in code, it doesn't exist in production."*
 
 </div>
 
 ---
 
-### 🚀 Cloud Infrastructure & Architecture Matrix
+### 🌐 Cloud Topology & Infrastructure Blueprint
 
-| DevOps Pillar | Core Technologies & Implementations |
-| :--- | :--- |
-| 🐳 **Containerization & Orchestration** | Docker, Kubernetes (K8s), Helm, Docker Compose, MicroK8s |
-| 🔄 **CI/CD & GitOps Automation** | GitHub Actions, GitLab CI, ArgoCD, Automated Lint & Test Pipelines |
-| 🏗️ **Infrastructure as Code (IaC)** | Terraform, Ansible, Pulumi, Immutable Infrastructure Patterns |
-| 📊 **Observability & Reliability** | Prometheus, Grafana, OpenTelemetry, ELK Stack, Distributed Tracing |
-| ☁️ **Cloud Platforms** | AWS (EC2, S3, RDS, ECS), Google Cloud Platform (GCP), DigitalOcean |
+<table width="100%">
+  <thead>
+    <tr>
+      <th width="30%">Topology Domain</th>
+      <th width="70%">Orchestration, Tooling & Implementation Standards</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>🐳 Orchestration</b></td>
+      <td>Kubernetes (K8s), Helm charts, Docker multi-stage builds, Containerd, MicroK8s</td>
+    </tr>
+    <tr>
+      <td><b>🏗️ Infrastructure as Code</b></td>
+      <td>Terraform modules (Immutable Infra), Ansible automation, CloudFormation, Packer</td>
+    </tr>
+    <tr>
+      <td><b>🔄 CI/CD & GitOps</b></td>
+      <td>GitHub Actions automated matrices, ArgoCD declarative sync, Trunk-based delivery</td>
+    </tr>
+    <tr>
+      <td><b>📊 Observability (O11y)</b></td>
+      <td>Prometheus metrics collection, Grafana dashboards, OpenTelemetry distributed tracing</td>
+    </tr>
+    <tr>
+      <td><b>☁️ Cloud Providers</b></td>
+      <td>Amazon Web Services (EKS, S3, RDS, CloudFront), Google Cloud (GKE), DigitalOcean</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
-### 🛠️ DevOps & Systems Tooling
+### 🛠️ DevOps & Systems Toolkit
 
 <p align="center">
   <a href="https://skillicons.dev">
@@ -39,7 +67,7 @@
 
 ---
 
-### 📈 Activity Metrics & Deployment Telemetry
+### 📈 Deployment Telemetry & Cluster Metrics
 
 <table align="center" width="100%">
   <tr>
@@ -59,5 +87,7 @@
 ---
 
 <div align="center">
+
+<!-- Quick customization: replace Limzen, contact@example.com, YOUR_LINKEDIN_USERNAME, and the sample content with your own details before publishing. -->
   <p>⭐ <i>Find these infrastructure templates useful? Hit the Star button to support continuous deployments!</i> ⭐</p>
 </div>

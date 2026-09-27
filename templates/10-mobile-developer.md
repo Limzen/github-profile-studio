@@ -1,14 +1,16 @@
 <div align="center">
 
+<!-- Quick customization: replace Limzen, contact@example.com, YOUR_LINKEDIN_USERNAME, and the sample content with your own details before publishing. -->
+
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=3,14,24&height=180&section=header&text=Mobile%20App%20Craftsman&fontSize=38&animation=fadeIn" width="100%" />
 
-# 📱 Limzen | Mobile Application Developer
-### Engineering Fluid, Resilient Native & Cross-Platform Experiences for iOS & Android
+# 📱 Limzen | Mobile Application Engineer
+### Building Fluid, Native & Cross-Platform Experiences · iOS & Android · Flutter & React Native
 
 <p align="center">
   <img src="https://img.shields.io/badge/Google_Play-414141?style=flat-square&logo=google-play&logoColor=white" alt="Play Store" />
   <img src="https://img.shields.io/badge/App_Store-0D96F6?style=flat-square&logo=app-store&logoColor=white" alt="App Store" />
-  <a href="https://linkedin.com"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://linkedin.com/in/YOUR_LINKEDIN_USERNAME"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:contact@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
   <a href="https://github.com/Limzen?tab=followers"><img src="https://img.shields.io/github/followers/Limzen?style=flat-square&color=24292f&logo=github&label=Followers" alt="Followers" /></a>
 </p>
@@ -17,19 +19,42 @@
 
 ---
 
-### 📲 Mobile Architecture & Engineering Matrix
+### 📲 Mobile Engineering Architecture Matrix
 
-| Engineering Pillar | Methodologies & Technologies |
-| :--- | :--- |
-| 🚀 **Cross-Platform Engineering** | Flutter (Dart), React Native (TypeScript), Expo Application Services |
-| 🍏 **Native Platform Integration** | Swift / SwiftUI (iOS), Kotlin / Jetpack Compose (Android), Platform Channels |
-| 🔄 **State Management** | BLoC, Riverpod, Redux Toolkit, Zustand, MobX |
-| 🗄️ **Local Storage & Offline First** | SQLite, Hive, Room Database, WatermelonDB, Encrypted Storage |
-| ⚡ **Cloud Services & Push Ops** | Firebase Cloud Messaging (FCM), Supabase, GraphQL, RESTful APIs |
+<table width="100%">
+  <thead>
+    <tr>
+      <th width="30%">Engineering Layer</th>
+      <th width="70%">Technologies, Patterns & Production Standards</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>🚀 Cross-Platform Frameworks</b></td>
+      <td>Flutter 3 (Material 3 + custom theming), React Native (New Architecture, Expo EAS)</td>
+    </tr>
+    <tr>
+      <td><b>🍏 Native Integration</b></td>
+      <td>Swift / SwiftUI (iOS 17+), Kotlin / Jetpack Compose, Platform Channels, MethodChannel</td>
+    </tr>
+    <tr>
+      <td><b>🔄 State Management</b></td>
+      <td>BLoC + Riverpod (Flutter), Redux Toolkit / Zustand (RN), MobX, Jotai</td>
+    </tr>
+    <tr>
+      <td><b>🗄️ Offline & Local Storage</b></td>
+      <td>SQLite / Drift, Hive (Dart), Room Database (Android), CoreData (iOS), WatermelonDB</td>
+    </tr>
+    <tr>
+      <td><b>☁️ Cloud Backend & Realtime</b></td>
+      <td>Firebase (Auth, FCM Push, Firestore), Supabase, GraphQL subscriptions, REST APIs</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
-### 🧰 Mobile Stack & Tooling
+### 🧰 Mobile Stack & Developer Tooling
 
 <p align="center">
   <a href="https://skillicons.dev">
@@ -39,7 +64,7 @@
 
 ---
 
-### 📊 Repository Activity & Mobile Diagnostics
+### 📊 Repository Metrics & Diagnostics
 
 <table align="center" width="100%">
   <tr>
@@ -59,5 +84,7 @@
 ---
 
 <div align="center">
-  <p>⭐ <i>Enjoying mobile experiments and UI open-source projects? Drop a Star to stay updated!</i> ⭐</p>
+
+<!-- Quick customization: replace Limzen, contact@example.com, YOUR_LINKEDIN_USERNAME, and the sample content with your own details before publishing. -->
+  <p>⭐ <i>Building something on mobile? Drop a Star and let's collaborate!</i> ⭐</p>
 </div>

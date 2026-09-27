@@ -1,14 +1,16 @@
 <div align="center">
 
+<!-- Quick customization: replace Limzen, contact@example.com, YOUR_LINKEDIN_USERNAME, and the sample content with your own details before publishing. -->
+
 <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&customColorList=12,24,30&height=180&section=header&text=✨%20Limzen%20✨&fontSize=38&animation=fadeIn" width="100%" />
 
 # 🎨 Limzen | UI/UX Designer & Frontend Craftsman
-### Crafting interfaces that balance visual elegance, accessibility, and high performance.
+### Crafting digital interfaces at the intersection of aesthetic intuition and frontend engineering.
 
 <p align="center">
   <a href="https://dribbble.com"><img src="https://img.shields.io/badge/Dribbble-EA4C89?style=flat-square&logo=dribbble&logoColor=white" alt="Dribbble" /></a>
   <a href="https://behance.net"><img src="https://img.shields.io/badge/Behance-1769FF?style=flat-square&logo=behance&logoColor=white" alt="Behance" /></a>
-  <a href="https://linkedin.com"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://linkedin.com/in/YOUR_LINKEDIN_USERNAME"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:contact@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
   <a href="https://github.com/Limzen?tab=followers"><img src="https://img.shields.io/github/followers/Limzen?style=flat-square&color=24292f&logo=github&label=Followers" alt="Followers" /></a>
 </p>
@@ -17,18 +19,50 @@
 
 ---
 
-### 💡 Design Philosophy & Creative Pillars
+### 🎨 Design System Palette & Tokens
 
-| Design Pillar | Approach & Architectural Standard |
-| :--- | :--- |
-| 📱 **User-Centric UI/UX** | Clean typography, strict visual hierarchy, dynamic responsive fluid grid systems |
-| 🔮 **Scalable Design Systems** | Modular component libraries, standardized design tokens, multi-platform consistency |
-| ⚡ **Micro-Interactions** | Tactile feedback, 60fps buttery animations, deliberate state transitions |
-| ♿ **Accessibility First** | WCAG AAA color contrast ratios, semantic HTML landmarks, keyboard navigation |
+<p align="center">
+  <img src="https://img.shields.io/badge/Canvas-%2309090B-09090b?style=for-the-badge" alt="Canvas" />
+  <img src="https://img.shields.io/badge/Elevated-%2318181B-18181b?style=for-the-badge" alt="Elevated" />
+  <img src="https://img.shields.io/badge/Brand-%2338BDF8-38bdf8?style=for-the-badge&logoColor=black" alt="Brand" />
+  <img src="https://img.shields.io/badge/Accent-%23F43F5E-f43f5e?style=for-the-badge" alt="Accent" />
+  <img src="https://img.shields.io/badge/Text-%23F4F4F5-f4f4f5?style=for-the-badge&logoColor=black" alt="Text" />
+</p>
 
 ---
 
-### 🎨 Creative Palette & Tech Stack
+### 💡 Creative Philosophy & Craftsmanship
+
+<table width="100%">
+  <thead>
+    <tr>
+      <th width="30%">Design Pillar</th>
+      <th width="70%">Execution Strategy & Architecture</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>📱 Design Systems</b></td>
+      <td>Atomic component design, tokenized CSS variables, Figma sync, headless accessible primitives (Radix UI)</td>
+    </tr>
+    <tr>
+      <td><b>⚡ Micro-Interactions</b></td>
+      <td>Fluid 60fps animations, haptic responses, physics-based springs (Framer Motion)</td>
+    </tr>
+    <tr>
+      <td><b>♿ Accessibility First</b></td>
+      <td>Strict WCAG AAA contrast compliance, keyboard navigability, semantic DOM hierarchy</td>
+    </tr>
+    <tr>
+      <td><b>🎯 Precision Typography</b></td>
+      <td>Golden ratio vertical rhythms, optical font sizing, responsive fluid scales</td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
+### 🧰 Creative Stack & Tooling
 
 <p align="center">
   <a href="https://skillicons.dev">
@@ -58,5 +92,7 @@
 ---
 
 <div align="center">
+
+<!-- Quick customization: replace Limzen, contact@example.com, YOUR_LINKEDIN_USERNAME, and the sample content with your own details before publishing. -->
   <p>⭐ <i>Appreciate handcrafted design systems? Drop a star to keep the inspiration alive!</i> ⭐</p>
 </div>
