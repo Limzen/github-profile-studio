@@ -748,12 +748,12 @@ function updateUI() {
   visualPreview.innerHTML = renderMarkdownPreview(md);
 }
 
-// Event Listeners for Preset Buttons
+// Event Listeners for Preset Archetype Buttons
 presetsSelector.addEventListener('click', (e) => {
-  const btn = e.target.closest('.preset-btn');
+  const btn = e.target.closest('.archetype-item') || e.target.closest('.preset-btn');
   if (!btn) return;
 
-  document.querySelectorAll('.preset-btn').forEach(b => b.classList.remove('active'));
+  document.querySelectorAll('.archetype-item, .preset-btn').forEach(b => b.classList.remove('active'));
   btn.classList.add('active');
   state.currentPreset = btn.dataset.preset;
   updateUI();
@@ -795,9 +795,9 @@ inputTheme.addEventListener('change', (e) => {
   updateUI();
 });
 
-// Tech selector pills
+// Tech selector tags
 techSelector.addEventListener('click', (e) => {
-  const pill = e.target.closest('.tech-pill');
+  const pill = e.target.closest('.tech-tag') || e.target.closest('.tech-pill');
   if (!pill) return;
 
   const tech = pill.dataset.tech;
@@ -835,16 +835,22 @@ function showToast(msg) {
   }, 2500);
 }
 
-// Copy to Clipboard
+// Copy to Clipboard with Animated State
 btnCopy.addEventListener('click', async () => {
   try {
     await navigator.clipboard.writeText(markdownOutput.value);
-    showToast('Markdown copied to clipboard! 🎉');
+    showToast('Markdown copied to clipboard');
   } catch (err) {
     markdownOutput.select();
     document.execCommand('copy');
-    showToast('Markdown copied to clipboard! 🎉');
+    showToast('Markdown copied to clipboard');
   }
+  
+  const originalText = document.getElementById('copy-text').textContent;
+  document.getElementById('copy-text').textContent = 'Copied!';
+  setTimeout(() => {
+    document.getElementById('copy-text').textContent = originalText;
+  }, 2000);
 });
 
 // Download README.md file
@@ -858,7 +864,7 @@ btnDownload.addEventListener('click', () => {
   a.click();
   document.body.removeChild(a);
   URL.revokeObjectURL(url);
-  showToast('Downloaded README.md! 🚀');
+  showToast('Downloaded README.md');
 });
 
 // Smooth Scroll for Nav Badges Guide
@@ -867,5 +873,8 @@ document.getElementById('nav-badge-link').addEventListener('click', (e) => {
   document.getElementById('badges-guide').scrollIntoView({ behavior: 'smooth' });
 });
 
-// Initial Render
+// Initial Render and Lucide Refresh
 updateUI();
+if (window.lucide) {
+  lucide.createIcons();
+}

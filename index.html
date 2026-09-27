@@ -3,368 +3,445 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GitHub Profile README Studio & Badges Hub</title>
-  <meta name="description" content="Aesthetic, copy-paste GitHub Profile README templates, interactive live generator, and complete GitHub achievements guide.">
+  <title>ProfileStudio — GitHub Profile README & Badges Hub</title>
+  <meta name="description" content="A curated suite of 13 production-ready GitHub profile templates, interactive generator, and achievement badge guide.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&family=Geist+Mono:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
 </head>
 <body>
-  <div class="background-glow top-left"></div>
-  <div class="background-glow bottom-right"></div>
+  <!-- Subtle technical grid background -->
+  <div class="bg-grid-pattern"></div>
+  <div class="bg-ambient-light"></div>
 
   <!-- Navigation Bar -->
-  <header class="navbar">
-    <div class="nav-container">
+  <header class="site-header">
+    <div class="header-inner">
       <div class="brand">
-        <span class="brand-icon">⚡</span>
-        <div class="brand-text">
-          <h1>Profile<span>Studio</span></h1>
-          <p class="brand-subtitle">GitHub README & Badges Hub</p>
+        <div class="brand-symbol">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="16 18 22 12 16 6"></polyline>
+            <polyline points="8 6 2 12 8 18"></polyline>
+          </svg>
+        </div>
+        <div class="brand-meta">
+          <span class="brand-title">ProfileStudio</span>
+          <span class="brand-tag">v2.0</span>
         </div>
       </div>
-      <div class="nav-actions">
-        <a href="#badges-guide" class="nav-link" id="nav-badge-link">
-          <span class="badge-pill">🏅 Badges Guide</span>
+
+      <nav class="nav-links">
+        <a href="#badges-guide" class="nav-btn-link" id="nav-badge-link">
+          <i data-lucide="award" class="icon-sm"></i>
+          <span>Badges Guide</span>
         </a>
-        <a href="https://github.com/Limzen/github-profile-studio" target="_blank" rel="noopener" class="btn-github" id="github-repo-link">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+        <a href="https://github.com/Limzen/github-profile-studio" target="_blank" rel="noopener" class="btn-github-action" id="github-repo-link">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
             <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
           </svg>
-          <span id="star-counter">⭐ Star on GitHub</span>
+          <span class="github-label">Star on GitHub</span>
+          <span class="github-shortcut">⌘S</span>
         </a>
-      </div>
+      </nav>
     </div>
   </header>
 
   <!-- Hero Section -->
-  <section class="hero">
+  <section class="hero-section">
     <div class="hero-badge">
-      <span>✨ Level up your developer presence</span>
+      <span class="badge-dot"></span>
+      <span>Curated Suite for Modern Developers</span>
     </div>
-    <h2 class="hero-title">Create Stunning GitHub Profiles in <span class="gradient-text">60 Seconds</span></h2>
-    <p class="hero-desc">
-      Choose an aesthetic preset, fill in your info, preview the live output, and copy ready-to-use Markdown. Plus, unlock all GitHub Achievement Badges!
+    <h1 class="hero-heading">Craft your developer identity.</h1>
+    <p class="hero-subheading">
+      Choose from 13 human-designed templates, configure your telemetry, and copy clean Markdown ready for your GitHub profile.
     </p>
   </section>
 
-  <!-- Main Generator Container -->
-  <main class="generator-container">
+  <!-- Main Workspace -->
+  <main class="workspace-layout">
     
-    <!-- Left Column: Controls & Form -->
-    <aside class="control-panel glass-card">
-      <div class="panel-header">
-        <h3>🎨 1. Choose Template Preset</h3>
-      </div>
+    <!-- Left Column: Controls & Configuration -->
+    <aside class="config-sidebar">
       
-      <div class="presets-grid" id="presets-selector">
-        <button class="preset-btn active" data-preset="minimalist">
-          <span class="preset-icon">💎</span>
-          <span class="preset-name">Minimalist Clean</span>
-        </button>
-        <button class="preset-btn" data-preset="cyberpunk">
-          <span class="preset-icon">🔮</span>
-          <span class="preset-name">Cyberpunk Neo</span>
-        </button>
-        <button class="preset-btn" data-preset="fullstack">
-          <span class="preset-icon">🚀</span>
-          <span class="preset-name">Modern Fullstack</span>
-        </button>
-        <button class="preset-btn" data-preset="terminal">
-          <span class="preset-icon">💻</span>
-          <span class="preset-name">Command Center</span>
-        </button>
-        <button class="preset-btn" data-preset="datascience">
-          <span class="preset-icon">🧠</span>
-          <span class="preset-name">AI & Data Scientist</span>
-        </button>
-        <button class="preset-btn" data-preset="designer">
-          <span class="preset-icon">🎨</span>
-          <span class="preset-name">Creative Designer</span>
-        </button>
-        <button class="preset-btn" data-preset="gamer">
-          <span class="preset-icon">🎮</span>
-          <span class="preset-name">Gamified RPG</span>
-        </button>
-        <button class="preset-btn" data-preset="indonesia">
-          <span class="preset-icon">🇮🇩</span>
-          <span class="preset-name">Indonesian Dev</span>
-        </button>
-        <button class="preset-btn" data-preset="devops">
-          <span class="preset-icon">☁️</span>
-          <span class="preset-name">Cloud & DevOps</span>
-        </button>
-        <button class="preset-btn" data-preset="mobile">
-          <span class="preset-icon">📱</span>
-          <span class="preset-name">Mobile App Dev</span>
-        </button>
-        <button class="preset-btn" data-preset="synthwave">
-          <span class="preset-icon">🌴</span>
-          <span class="preset-name">Retro Synthwave</span>
-        </button>
-        <button class="preset-btn" data-preset="bento">
-          <span class="preset-icon">🍱</span>
-          <span class="preset-name">Bento Grid</span>
-        </button>
-        <button class="preset-btn" data-preset="student">
-          <span class="preset-icon">🎓</span>
-          <span class="preset-name">Junior / Student</span>
-        </button>
+      <!-- Presets Selector -->
+      <div class="sidebar-block">
+        <div class="block-header">
+          <span class="step-num">01</span>
+          <h3>Select Profile Archetype</h3>
+        </div>
+        <div class="archetype-grid" id="presets-selector">
+          <button class="archetype-item active" data-preset="minimalist">
+            <i data-lucide="sparkles" class="icon-base"></i>
+            <span class="archetype-label">Minimalist Clean</span>
+          </button>
+          <button class="archetype-item" data-preset="cyberpunk">
+            <i data-lucide="cpu" class="icon-base"></i>
+            <span class="archetype-label">Cyberpunk Neo</span>
+          </button>
+          <button class="archetype-item" data-preset="fullstack">
+            <i data-lucide="layers" class="icon-base"></i>
+            <span class="archetype-label">Modern Fullstack</span>
+          </button>
+          <button class="archetype-item" data-preset="terminal">
+            <i data-lucide="terminal" class="icon-base"></i>
+            <span class="archetype-label">Command Center</span>
+          </button>
+          <button class="archetype-item" data-preset="datascience">
+            <i data-lucide="binary" class="icon-base"></i>
+            <span class="archetype-label">AI & Data Science</span>
+          </button>
+          <button class="archetype-item" data-preset="designer">
+            <i data-lucide="palette" class="icon-base"></i>
+            <span class="archetype-label">Creative Designer</span>
+          </button>
+          <button class="archetype-item" data-preset="gamer">
+            <i data-lucide="gamepad-2" class="icon-base"></i>
+            <span class="archetype-label">Gamified RPG</span>
+          </button>
+          <button class="archetype-item" data-preset="indonesia">
+            <i data-lucide="globe-2" class="icon-base"></i>
+            <span class="archetype-label">Indonesian Dev</span>
+          </button>
+          <button class="archetype-item" data-preset="devops">
+            <i data-lucide="cloud" class="icon-base"></i>
+            <span class="archetype-label">Cloud & DevOps</span>
+          </button>
+          <button class="archetype-item" data-preset="mobile">
+            <i data-lucide="smartphone" class="icon-base"></i>
+            <span class="archetype-label">Mobile Engineer</span>
+          </button>
+          <button class="archetype-item" data-preset="synthwave">
+            <i data-lucide="disc" class="icon-base"></i>
+            <span class="archetype-label">Retro Synthwave</span>
+          </button>
+          <button class="archetype-item" data-preset="bento">
+            <i data-lucide="layout-grid" class="icon-base"></i>
+            <span class="archetype-label">Bento Matrix</span>
+          </button>
+          <button class="archetype-item" data-preset="student">
+            <i data-lucide="graduation-cap" class="icon-base"></i>
+            <span class="archetype-label">Junior / Graduate</span>
+          </button>
+        </div>
       </div>
 
-      <div class="panel-header section-divider">
-        <h3>📝 2. Customize Details</h3>
+      <!-- Detail Customizer Form -->
+      <div class="sidebar-block">
+        <div class="block-header">
+          <span class="step-num">02</span>
+          <h3>Identity & Configuration</h3>
+        </div>
+
+        <form id="profile-form" class="telemetry-form" autocomplete="off">
+          
+          <div class="field-item">
+            <label for="input-github">GitHub Handle</label>
+            <div class="input-inline-addon">
+              <span class="addon-prefix">@</span>
+              <input type="text" id="input-github" value="Limzen" placeholder="username" required>
+            </div>
+          </div>
+
+          <div class="field-row">
+            <div class="field-item">
+              <label for="input-name">Display Name</label>
+              <input type="text" id="input-name" value="Limzen" placeholder="e.g. Alex Morgan">
+            </div>
+            <div class="field-item">
+              <label for="input-role">Role Title</label>
+              <input type="text" id="input-role" value="Full-Stack Software Engineer" placeholder="e.g. Systems Engineer">
+            </div>
+          </div>
+
+          <div class="field-item">
+            <label for="input-bio">Summary / Mission Statement</label>
+            <textarea id="input-bio" rows="2" placeholder="Brief developer headline...">Building scalable modern web applications and responsive architectures.</textarea>
+          </div>
+
+          <div class="field-row">
+            <div class="field-item">
+              <label for="input-linkedin">LinkedIn Handle</label>
+              <input type="text" id="input-linkedin" value="username" placeholder="linkedin-username">
+            </div>
+            <div class="field-item">
+              <label for="input-email">Direct Inquiries Email</label>
+              <input type="email" id="input-email" value="contact@example.com" placeholder="you@domain.com">
+            </div>
+          </div>
+
+          <div class="field-item">
+            <label>Ecosystem & Stack Tags</label>
+            <div class="tag-selector" id="tech-selector">
+              <span class="tech-tag active" data-tech="ts">TypeScript</span>
+              <span class="tech-tag active" data-tech="js">JavaScript</span>
+              <span class="tech-tag active" data-tech="react">React</span>
+              <span class="tech-tag active" data-tech="nextjs">Next.js</span>
+              <span class="tech-tag active" data-tech="vue">Vue</span>
+              <span class="tech-tag active" data-tech="tailwind">Tailwind</span>
+              <span class="tech-tag active" data-tech="nodejs">Node.js</span>
+              <span class="tech-tag active" data-tech="express">Express</span>
+              <span class="tech-tag active" data-tech="php">PHP</span>
+              <span class="tech-tag active" data-tech="laravel">Laravel</span>
+              <span class="tech-tag active" data-tech="postgres">PostgreSQL</span>
+              <span class="tech-tag active" data-tech="docker">Docker</span>
+              <span class="tech-tag active" data-tech="git">Git</span>
+              <span class="tech-tag" data-tech="python">Python</span>
+              <span class="tech-tag" data-tech="go">Go</span>
+              <span class="tech-tag" data-tech="rust">Rust</span>
+            </div>
+          </div>
+
+          <div class="field-item">
+            <label for="input-theme">Telemetry Colorway</label>
+            <div class="custom-select-wrap">
+              <select id="input-theme">
+                <option value="tokyonight" selected>Tokyo Night — Deep Slate & Violet</option>
+                <option value="radical">Radical — High Contrast Neon</option>
+                <option value="merko">Merko — Emerald Minimalist</option>
+                <option value="dracula">Dracula — Classic Indigo Gothic</option>
+                <option value="onedark">One Dark — Atom Developer Theme</option>
+                <option value="solarized">Solarized — Amber Ochre</option>
+                <option value="synthwave">Synthwave — 80s Sunset Outrun</option>
+              </select>
+              <div class="select-chevron">
+                <i data-lucide="chevron-down" class="icon-sm"></i>
+              </div>
+            </div>
+          </div>
+
+        </form>
       </div>
 
-      <form id="profile-form" class="custom-form">
-        <div class="form-group">
-          <label for="input-github">GitHub Username *</label>
-          <div class="input-prefix-wrapper">
-            <span class="prefix">github.com/</span>
-            <input type="text" id="input-github" placeholder="your-username" value="Limzen" required>
-          </div>
-        </div>
-
-        <div class="form-row">
-          <div class="form-group">
-            <label for="input-name">Full Name</label>
-            <input type="text" id="input-name" placeholder="e.g. Limzen" value="Limzen">
-          </div>
-          <div class="form-group">
-            <label for="input-role">Job Title / Role</label>
-            <input type="text" id="input-role" placeholder="e.g. Full-Stack Engineer" value="Full-Stack Software Engineer">
-          </div>
-        </div>
-
-        <div class="form-group">
-          <label for="input-bio">About / Bio Headline</label>
-          <textarea id="input-bio" rows="2" placeholder="Brief intro about what you do...">Building high-performance modern web apps and distributed systems.</textarea>
-        </div>
-
-        <div class="form-row">
-          <div class="form-group">
-            <label for="input-linkedin">LinkedIn Username</label>
-            <input type="text" id="input-linkedin" placeholder="username" value="alexmorgan">
-          </div>
-          <div class="form-group">
-            <label for="input-email">Email Address</label>
-            <input type="email" id="input-email" placeholder="you@domain.com" value="alex@example.com">
-          </div>
-        </div>
-
-        <div class="form-group">
-          <label>Tech Stack Icons (Quick Select)</label>
-          <div class="tech-pills" id="tech-selector">
-            <span class="tech-pill active" data-tech="ts">TypeScript</span>
-            <span class="tech-pill active" data-tech="js">JavaScript</span>
-            <span class="tech-pill active" data-tech="react">React</span>
-            <span class="tech-pill active" data-tech="nextjs">Next.js</span>
-            <span class="tech-pill active" data-tech="vue">Vue</span>
-            <span class="tech-pill active" data-tech="tailwind">Tailwind</span>
-            <span class="tech-pill active" data-tech="nodejs">Node.js</span>
-            <span class="tech-pill active" data-tech="express">Express</span>
-            <span class="tech-pill active" data-tech="python">Python</span>
-            <span class="tech-pill active" data-tech="postgres">PostgreSQL</span>
-            <span class="tech-pill active" data-tech="docker">Docker</span>
-            <span class="tech-pill active" data-tech="git">Git</span>
-            <span class="tech-pill" data-tech="laravel">Laravel</span>
-            <span class="tech-pill" data-tech="php">PHP</span>
-            <span class="tech-pill" data-tech="go">Go</span>
-            <span class="tech-pill" data-tech="rust">Rust</span>
-          </div>
-        </div>
-
-        <div class="form-group">
-          <label for="input-theme">Stats Card Theme</label>
-          <select id="input-theme">
-            <option value="tokyonight" selected>Tokyo Night (Recommended)</option>
-            <option value="radical">Radical Neon</option>
-            <option value="merko">Merko Green</option>
-            <option value="gruvbox">Gruvbox Retro</option>
-            <option value="onedark">One Dark</option>
-            <option value="dracula">Dracula</option>
-            <option value="catppuccin_latte">Catppuccin Light</option>
-          </select>
-        </div>
-      </form>
     </aside>
 
-    <!-- Right Column: Preview & Code Output -->
-    <section class="preview-panel glass-card">
-      <div class="preview-header">
-        <div class="tab-controls">
-          <button class="tab-btn active" id="btn-tab-preview">
-            <span>👁️ Visual Preview</span>
+    <!-- Right Column: macOS Window Style Live Canvas -->
+    <section class="canvas-panel">
+      
+      <!-- Studio Window Bar -->
+      <div class="canvas-header">
+        <div class="window-decorations">
+          <span class="decor-dot close"></span>
+          <span class="decor-dot minimize"></span>
+          <span class="decor-dot expand"></span>
+          <span class="file-path">
+            <i data-lucide="file-text" class="icon-xs"></i>
+            <span>README.md</span>
+          </span>
+        </div>
+
+        <div class="segmented-control">
+          <button class="seg-btn active" id="btn-tab-preview">
+            <i data-lucide="eye" class="icon-xs"></i>
+            <span>Preview</span>
           </button>
-          <button class="tab-btn" id="btn-tab-code">
-            <span>📄 Raw Markdown</span>
+          <button class="seg-btn" id="btn-tab-code">
+            <i data-lucide="code" class="icon-xs"></i>
+            <span>Markdown</span>
           </button>
         </div>
-        <div class="action-buttons">
-          <button class="btn-secondary" id="btn-download">
-            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"></path></svg>
-            Download
+
+        <div class="header-actions">
+          <button class="btn-ghost" id="btn-download" title="Export as README.md">
+            <i data-lucide="download" class="icon-sm"></i>
+            <span>Download</span>
           </button>
-          <button class="btn-primary" id="btn-copy">
-            <svg id="copy-icon" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
-            <span id="copy-text">Copy Markdown</span>
+          <button class="btn-solid" id="btn-copy">
+            <i data-lucide="copy" class="icon-sm" id="copy-icon"></i>
+            <span id="copy-text">Copy Code</span>
           </button>
         </div>
       </div>
 
-      <!-- Live Render Area -->
-      <div class="preview-body" id="preview-container">
-        <div id="visual-preview" class="markdown-preview markdown-body">
-          <!-- Rendered HTML dynamically injected here -->
+      <!-- Preview Rendering Area -->
+      <div class="canvas-body" id="preview-container">
+        <div id="visual-preview" class="github-canvas-render">
+          <!-- Rendered live HTML -->
         </div>
-        <div id="code-preview" class="code-preview-wrapper" style="display: none;">
-          <textarea id="markdown-output" readonly spellcheck="false"></textarea>
+        <div id="code-preview" class="code-editor-render" style="display: none;">
+          <textarea id="markdown-output" spellcheck="false"></textarea>
         </div>
       </div>
-      
-      <div class="preview-footer">
-        <p>💡 <b>How to apply:</b> Create a repo named <code>&lt;your-username&gt;</code> on GitHub, add this into <code>README.md</code>, commit & enjoy your new profile!</p>
+
+      <div class="canvas-footer">
+        <div class="footer-tip">
+          <i data-lucide="info" class="icon-xs"></i>
+          <span>Usage: Paste into your GitHub profile repository (<code>https://github.com/&lt;username&gt;/&lt;username&gt;</code>)</span>
+        </div>
       </div>
+
     </section>
 
   </main>
 
-  <!-- GitHub Badges Section -->
-  <section id="badges-guide" class="badges-section">
-    <div class="section-title-wrap">
-      <span class="badge-tag">ACHIEVEMENTS</span>
-      <h2>Unlock Every GitHub Badge</h2>
-      <p>Quick tips to earn community badges on your GitHub profile.</p>
+  <!-- GitHub Badges Mastery Section -->
+  <section id="badges-guide" class="achievements-section">
+    <div class="section-heading-wrap">
+      <div class="section-tag">
+        <i data-lucide="shield-check" class="icon-xs"></i>
+        <span>GitHub Achievements Manual</span>
+      </div>
+      <h2>Unlock Verified Developer Badges</h2>
+      <p>Actionable pathways to obtain all official GitHub community achievements.</p>
     </div>
 
-    <div class="badges-grid">
+    <div class="achievements-grid">
       
-      <div class="badge-card glass-card">
-        <div class="badge-icon-wrap gold">
-          <span>⭐</span>
-        </div>
-        <div class="badge-info">
-          <h4>Starstruck</h4>
-          <p class="badge-req">Created a repository that received stars from others.</p>
-          <div class="badge-tiers">
-            <span class="tier">Base: 16 ⭐</span>
-            <span class="tier">Bronze: 128 ⭐</span>
-            <span class="tier">Silver: 512 ⭐</span>
+      <div class="achievement-card">
+        <div class="card-lead">
+          <div class="card-icon-box">
+            <i data-lucide="star" class="icon-md"></i>
           </div>
-          <div class="badge-tip">
-            💡 <b>Fast track:</b> Publish this profile template repo on GitHub, share it to your friends & Discord communities!
+          <div class="card-title-meta">
+            <h4>Starstruck</h4>
+            <span class="card-criteria">Stars received on personal public repository</span>
           </div>
         </div>
+        <div class="tier-badges">
+          <span class="tier-pill">Base: 16 ⭐</span>
+          <span class="tier-pill">Bronze: 128 ⭐</span>
+          <span class="tier-pill">Silver: 512 ⭐</span>
+        </div>
+        <p class="card-pathway">
+          <strong>Direct Pathway:</strong> Publish this profile studio repository, share the interactive demo with fellow developers to gather 16 initial stars.
+        </p>
       </div>
 
-      <div class="badge-card glass-card">
-        <div class="badge-icon-wrap blue">
-          <span>🦈</span>
-        </div>
-        <div class="badge-info">
-          <h4>Pull Shark</h4>
-          <p class="badge-req">Opened pull requests that have been merged.</p>
-          <div class="badge-tiers">
-            <span class="tier">Base: 2 PRs</span>
-            <span class="tier">Bronze: 16 PRs</span>
-            <span class="tier">Silver: 128 PRs</span>
+      <div class="achievement-card">
+        <div class="card-lead">
+          <div class="card-icon-box">
+            <i data-lucide="git-pull-request" class="icon-md"></i>
           </div>
-          <div class="badge-tip">
-            💡 <b>Fast track:</b> Create a branch on your own repo, open a PR to main, and merge it!
+          <div class="card-title-meta">
+            <h4>Pull Shark</h4>
+            <span class="card-criteria">Pull requests opened and merged into main</span>
           </div>
         </div>
+        <div class="tier-badges">
+          <span class="tier-pill">Base: 2 PRs</span>
+          <span class="tier-pill">Bronze: 16 PRs</span>
+          <span class="tier-pill">Silver: 128 PRs</span>
+        </div>
+        <p class="card-pathway">
+          <strong>Direct Pathway:</strong> Open a feature branch on your own repository, create a PR to main, and merge it. GitHub counts self-merged PRs.
+        </p>
       </div>
 
-      <div class="badge-card glass-card">
-        <div class="badge-icon-wrap emerald">
-          <span>⚡</span>
-        </div>
-        <div class="badge-info">
-          <h4>Quickdraw</h4>
-          <p class="badge-req">Closed an issue or pull request within 5 minutes of opening.</p>
-          <div class="badge-tiers">
-            <span class="tier tier-single">1-Tier Instant</span>
+      <div class="achievement-card">
+        <div class="card-lead">
+          <div class="card-icon-box">
+            <i data-lucide="zap" class="icon-md"></i>
           </div>
-          <div class="badge-tip">
-            💡 <b>Fast track:</b> Open a dummy issue in your repo, then click "Close Issue" immediately.
+          <div class="card-title-meta">
+            <h4>Quickdraw</h4>
+            <span class="card-criteria">Closed an issue or pull request within 5 minutes</span>
           </div>
         </div>
+        <div class="tier-badges">
+          <span class="tier-pill tier-highlight">Single Tier Unlock</span>
+        </div>
+        <p class="card-pathway">
+          <strong>Direct Pathway:</strong> Create a dummy issue in any repository you own, then click "Close Issue" within 60 seconds.
+        </p>
       </div>
 
-      <div class="badge-card glass-card">
-        <div class="badge-icon-wrap purple">
-          <span>🤠</span>
-        </div>
-        <div class="badge-info">
-          <h4>YOLO</h4>
-          <p class="badge-req">Merged a pull request without code review.</p>
-          <div class="badge-tiers">
-            <span class="tier tier-single">1-Tier Instant</span>
+      <div class="achievement-card">
+        <div class="card-lead">
+          <div class="card-icon-box">
+            <i data-lucide="git-merge" class="icon-md"></i>
           </div>
-          <div class="badge-tip">
-            💡 <b>Fast track:</b> Merge your own PR directly without assigning any reviewers.
+          <div class="card-title-meta">
+            <h4>YOLO</h4>
+            <span class="card-criteria">Merged a pull request without code review</span>
           </div>
         </div>
+        <div class="tier-badges">
+          <span class="tier-pill tier-highlight">Single Tier Unlock</span>
+        </div>
+        <p class="card-pathway">
+          <strong>Direct Pathway:</strong> Merge any pull request directly on your repository without adding or requesting reviewers.
+        </p>
       </div>
 
-      <div class="badge-card glass-card">
-        <div class="badge-icon-wrap orange">
-          <span>👥</span>
-        </div>
-        <div class="badge-info">
-          <h4>Pair Extraordinaire</h4>
-          <p class="badge-req">Co-authored a commit in a merged pull request.</p>
-          <div class="badge-tiers">
-            <span class="tier">Base: 1 Commit</span>
-            <span class="tier">Bronze: 10 Commits</span>
+      <div class="achievement-card">
+        <div class="card-lead">
+          <div class="card-icon-box">
+            <i data-lucide="users" class="icon-md"></i>
           </div>
-          <div class="badge-tip">
-            💡 <b>Fast track:</b> Add <code>Co-authored-by: Name &lt;email&gt;</code> at the end of git commit message!
+          <div class="card-title-meta">
+            <h4>Pair Extraordinaire</h4>
+            <span class="card-criteria">Co-authored a commit in a merged PR</span>
           </div>
         </div>
+        <div class="tier-badges">
+          <span class="tier-pill">Base: 1 Commit</span>
+          <span class="tier-pill">Bronze: 10 Commits</span>
+        </div>
+        <p class="card-pathway">
+          <strong>Direct Pathway:</strong> Append <code>Co-authored-by: Name &lt;email&gt;</code> to your git commit message.
+        </p>
       </div>
 
-      <div class="badge-card glass-card">
-        <div class="badge-icon-wrap cyan">
-          <span>🧠</span>
-        </div>
-        <div class="badge-info">
-          <h4>Galaxy Brain</h4>
-          <p class="badge-req">Had your answer accepted in GitHub Discussions.</p>
-          <div class="badge-tiers">
-            <span class="tier">Base: 2 Answers</span>
-            <span class="tier">Bronze: 8 Answers</span>
+      <div class="achievement-card">
+        <div class="card-lead">
+          <div class="card-icon-box">
+            <i data-lucide="lightbulb" class="icon-md"></i>
           </div>
-          <div class="badge-tip">
-            💡 <b>Fast track:</b> Enable Discussions tab in your repo, ask a question and mark the reply as answer.
+          <div class="card-title-meta">
+            <h4>Galaxy Brain</h4>
+            <span class="card-criteria">Accepted answers in GitHub Discussions</span>
           </div>
         </div>
+        <div class="tier-badges">
+          <span class="tier-pill">Base: 2 Answers</span>
+          <span class="tier-pill">Bronze: 8 Answers</span>
+        </div>
+        <p class="card-pathway">
+          <strong>Direct Pathway:</strong> Enable Discussions tab in repository settings, post a Q&A thread, and mark the response as the accepted answer.
+        </p>
       </div>
 
     </div>
   </section>
 
-  <!-- Footer -->
-  <footer class="app-footer">
-    <div class="footer-content">
-      <p>Crafted for open-source developers worldwide 🚀 • Open Source under MIT License</p>
-      <div class="footer-links">
-        <a href="./docs/GITHUB_BADGES_GUIDE.md">Full Badges Guide</a>
-        <span>•</span>
-        <a href="./docs/WIDGETS_COLLECTION.md">Widgets Gallery</a>
-        <span>•</span>
-        <a href="./docs/PROMOTION_STRATEGY.md">How to get 16+ Stars</a>
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="footer-wrap">
+      <div class="footer-brand">
+        <div class="brand-symbol symbol-sm">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="16 18 22 12 16 6"></polyline>
+            <polyline points="8 6 2 12 8 18"></polyline>
+          </svg>
+        </div>
+        <span>ProfileStudio • Crafted for open-source engineering</span>
+      </div>
+      <div class="footer-nav">
+        <a href="./docs/GITHUB_BADGES_GUIDE.md">Badges Guide</a>
+        <span class="nav-sep">/</span>
+        <a href="./docs/WIDGETS_COLLECTION.md">Widgets Catalog</a>
+        <span class="nav-sep">/</span>
+        <a href="./docs/PROMOTION_STRATEGY.md">Star Playbook</a>
+        <span class="nav-sep">/</span>
+        <a href="https://github.com/Limzen/github-profile-studio" target="_blank" rel="noopener">GitHub</a>
       </div>
     </div>
   </footer>
 
-  <!-- Toast Notification -->
-  <div id="toast" class="toast">
-    <span class="toast-icon">✅</span>
-    <span id="toast-message">Copied to clipboard!</span>
+  <!-- Toast -->
+  <div id="toast" class="toast-panel">
+    <i data-lucide="check" class="toast-icon"></i>
+    <span id="toast-message">Copied to clipboard</span>
   </div>
 
   <script src="app.js"></script>
+  <script>
+    // Initialize Lucide icons on load
+    if (window.lucide) {
+      lucide.createIcons();
+    }
+  </script>
 </body>
 </html>
